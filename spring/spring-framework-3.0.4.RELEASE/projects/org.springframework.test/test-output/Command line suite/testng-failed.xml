@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="5" skipfailedinvocationCounts="false" verbose="0" name="Failed suite [Command line suite]" junit="false" annotations="JDK" data-provider-thread-count="10">
+  <test name="Command line test(failed)" junit="false" annotations="JDK">
+    <classes>
+      <class name="org.springframework.test.context.testng.FailingBeforeAndAfterMethodsTests$FailingBeforeTransactionTestCase">
+        <methods>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextAfterTestMethod"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="testNothing"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

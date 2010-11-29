@@ -1,0 +1,115 @@
+Release Notes -- Apache Geronimo -- Version 2.1.6
+
+
+Geronimo URLs
+-------------
+Home Page:     http://geronimo.apache.org/
+Downloads:     http://geronimo.apache.org/downloads.html
+Documentation: http://geronimo.apache.org/documentation.html
+Mailing Lists: http://geronimo.apache.org/mailing-lists.html
+Source Code:   http://geronimo.apache.org/source-code.html
+Bug Tracking:  http://issues.apache.org/jira/browse/GERONIMO
+Wiki:          http://cwiki.apache.org/geronimo
+
+
+Documentation
+-------------
+Please see http://cwiki.apache.org/GMOxDOC21/documentation.html for the
+latest documentation on this release.
+
+
+System Requirements
+-------------------
+You need a platform that supports the Sun JDK 5.0+ (J2SE 1.5.0+) or greater.
+
+Most testing has been done on Linux, Mac OS X, and Windows.
+
+
+Geronimo 2.1 Enhancements
+-------------------------
+
+Custom server assemblies
+- Lightweight server assemblies may be created that contain only the functional 
+  components required by your application(s).
+
+Flexible admin console
+- The admin console is now component-based to mirror the server capabilities. 
+  This allows the admin console to provide flexible administrative capabilities 
+  that will mirrors the capabilities of a custom server assembly.
+
+GShell
+- GShell is a command-line processing environment that can be used for the execution
+  of Geronimo commands. GShell is an extensible environment and includes support
+  for editing, command history, and tab completion. 
+
+Clustering Support
+- WADI can now be used to support clustering of web applications for Geronimo configurations 
+  which use the Tomcat Web Container (WADI support for Jetty was in previous releases). 
+- Applications can be deployed to administratively-defined groups of Geronimo servers
+
+Monitoring Console Plugin
+- The monitoring console plugin provides monitoring support in the Geronimo admin console. 
+  The monitoring console can gather statistics and performance data from multiple Geronimo 
+  servers and graphically display this data to users.
+
+Plan Creator (added in Geronimo 2.1.2)
+- Plan Creator is a new portlet added to administration console to simplify the creation of 
+  Geronimo specific deployment plans. Given a web application archive (war), Plan Creator walks 
+  the user through a sequence of steps and generates geronimo-web.xml automatically.
+
+
+Geronimo 2.1.6 Issues Resolved
+------------------------------
+** Bug
+GERONIMO-5383 Update to new versions of CXF and Axis2 
+GERONIMO-5387 Update the spring framework version used in Geronimo. 
+
+Certification Status
+--------------------
+Apache Geronimo v2.1.x has passed 100% of SUN's Java Enterprise Edition 5.0 
+Certification Test Suite. See "Distributions" for further details.
+
+
+Distributions
+-------------
+Apache Geronimo v2.1.x is available in five distributions so you can pick the 
+one that best fits your environment.
+
+The available distributions are as follows:
+
+Certified distributions:
+- Apache Geronimo with Tomcat web container, AXIS2 for Web Services and OpenJPA
+  for persistence.
+- Apache Geronimo with Jetty web container, CXF for Web Services and OpenJPA 
+  for persistence.
+
+Non-Certified distributions:
+- Little-G with Tomcat web container, minimal configuration.
+- Little-G with Jetty web container, minimal configuration.
+- Geronimo framework, stripped down Geronimo pluggable framework.
+
+Note: Non-Certified distributions do not contain a complete JavaEE5 stack and so 
+cannot be certified.  Certified distributions can be reconfigured by the user 
+(such as Tomcat web container with CXF for Web Services). 
+
+
+Supported features
+------------------
+All programming elements of the Java EE 5.0 Specification are available.  
+
+
+Known Issues and Limitations
+----------------------------
+** Bug
+GERONIMO-5181 Modification to Database connection pool parameters are not saved when restart Geronimo. 
+GERONIMO-5160 Fail to create Database Pool for DB2(DataDirect) and Informix(DataDirect) 
+GERONIMO-5137 EJB security config in ejb-jar.xml does not override the ones defined via security annotations 
+GERONIMO-4901 Shutting down Geronimo destroys pending Timers 
+GERONIMO-4887 java.lang.SecurityException: Invalid login when edit a running jmx server 
+GERONIMO-4845 the view is also existed after I delete the server in monitoting portlet 
+GERONIMO-4775 Need to convert static English images into translatable text in Admin console 
+GERONIMO-4757 "java.lang.IllegalStateException" error when use install-plugin goal 
+GERONIMO-4731 Jetty build does not support IPV6 address in browser. 
+GERONIMO-4688 hardcode port in plan.xml of plugin farming. 
+GERONIMO-4634 PlanCreator does not work for some applications
+

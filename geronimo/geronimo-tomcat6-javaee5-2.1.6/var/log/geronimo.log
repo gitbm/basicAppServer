@@ -1,0 +1,446 @@
+2010-11-27 21:30:47,090 INFO  [Log4jService] ----------------------------------------------
+2010-11-27 21:30:47,091 INFO  [Log4jService] Started Logging Service
+2010-11-27 21:30:47,091 INFO  [Log4jService] Runtime Information:
+2010-11-27 21:30:47,091 INFO  [Log4jService]   Install Directory = /home/user1/geronimo/geronimo-tomcat6-javaee5-2.1.6
+2010-11-27 21:30:47,091 INFO  [JvmVendor] Sun JVM 1.6.0_18
+2010-11-27 21:30:47,091 INFO  [Log4jService]   JVM in use = Sun JVM 1.6.0_18
+2010-11-27 21:30:47,091 INFO  [Log4jService] Java Information:
+2010-11-27 21:30:47,091 INFO  [Log4jService]   System property [java.runtime.name]  = OpenJDK Runtime Environment
+2010-11-27 21:30:47,091 INFO  [Log4jService]   System property [java.runtime.version]  = 1.6.0_18-b18
+2010-11-27 21:30:47,091 INFO  [Log4jService]   System property [os.name]             = Linux
+2010-11-27 21:30:47,091 INFO  [Log4jService]   System property [os.version]          = 2.6.32-24-generic
+2010-11-27 21:30:47,091 INFO  [Log4jService]   System property [sun.os.patch.level]  = unknown
+2010-11-27 21:30:47,091 INFO  [Log4jService]   System property [os.arch]             = amd64
+2010-11-27 21:30:47,091 INFO  [Log4jService]   System property [java.class.version]  = 50.0
+2010-11-27 21:30:47,091 INFO  [Log4jService]   System property [locale]              = en_AU
+2010-11-27 21:30:47,091 INFO  [Log4jService]   System property [unicode.encoding]    = UnicodeLittle
+2010-11-27 21:30:47,092 INFO  [Log4jService]   System property [file.encoding]       = UTF-8
+2010-11-27 21:30:47,092 INFO  [Log4jService]   System property [java.vm.name]        = OpenJDK 64-Bit Server VM
+2010-11-27 21:30:47,092 INFO  [Log4jService]   System property [java.vm.vendor]      = Sun Microsystems Inc.
+2010-11-27 21:30:47,092 INFO  [Log4jService]   System property [java.vm.version]     = 16.0-b13
+2010-11-27 21:30:47,092 INFO  [Log4jService]   System property [java.vm.info]        = mixed mode
+2010-11-27 21:30:47,092 INFO  [Log4jService]   System property [java.home]           = /usr/lib/jvm/java-6-openjdk/jre
+2010-11-27 21:30:47,092 INFO  [Log4jService]   System property [java.classpath]      = null
+2010-11-27 21:30:47,092 INFO  [Log4jService]   System property [java.library.path]   = /usr/lib/jvm/java-6-openjdk/jre/lib/amd64/server:/usr/lib/jvm/java-6-openjdk/jre/lib/amd64:/usr/lib/jvm/java-6-openjdk/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib/jni:/lib:/usr/lib
+2010-11-27 21:30:47,092 INFO  [Log4jService]   System property [java.endorsed.dirs]  = /usr/lib/jvm/java-6-openjdk/jre/lib/endorsed
+2010-11-27 21:30:47,092 INFO  [Log4jService]   System property [java.ext.dirs]       = /usr/lib/jvm/java-6-openjdk/jre/lib/ext:/usr/java/packages/lib/ext
+2010-11-27 21:30:47,092 INFO  [Log4jService]   System property [sun.boot.class.path] = /usr/lib/jvm/java-6-openjdk/jre/lib/resources.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/rt.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/jsse.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/jce.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/charsets.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/rhino.jar:/usr/lib/jvm/java-6-openjdk/jre/classes
+2010-11-27 21:30:47,092 INFO  [Log4jService] ----------------------------------------------
+2010-11-27 21:30:47,781 INFO  [KernelContextGBean] bound gbean org.apache.geronimo.framework/rmi-naming/2.1.6/car?ServiceModule=org.apache.geronimo.framework/rmi-naming/2.1.6/car,j2eeType=Context,name=JavaCompContext at name java:comp
+2010-11-27 21:30:47,782 INFO  [KernelContextGBean] bound gbean org.apache.geronimo.framework/rmi-naming/2.1.6/car?ServiceModule=org.apache.geronimo.framework/rmi-naming/2.1.6/car,j2eeType=Context,name=JavaContext at name java:
+2010-11-27 21:30:47,782 INFO  [KernelContextGBean] bound gbean org.apache.geronimo.framework/rmi-naming/2.1.6/car?ServiceModule=org.apache.geronimo.framework/rmi-naming/2.1.6/car,j2eeType=Context,name=GeronimoContext at name ger:
+2010-11-27 21:30:48,575 INFO  [SystemProperties] Setting Property=java.net.preferIPv4Stack to Value=true
+2010-11-27 21:30:48,575 INFO  [SystemProperties] Setting Property=javax.xml.soap.MessageFactory to Value=org.apache.geronimo.webservices.saaj.GeronimoMessageFactory
+2010-11-27 21:30:48,575 INFO  [SystemProperties] Setting Property=org.apache.cxf.jaxws.checkPublishEndpointPermission to Value=true
+2010-11-27 21:30:48,575 INFO  [SystemProperties] Setting Property=javax.xml.soap.SOAPConnectionFactory to Value=org.apache.geronimo.webservices.saaj.GeronimoSOAPConnectionFactory
+2010-11-27 21:30:48,575 INFO  [SystemProperties] Setting Property=javax.xml.soap.SOAPFactory to Value=org.apache.geronimo.webservices.saaj.GeronimoSOAPFactory
+2010-11-27 21:30:48,575 INFO  [SystemProperties] Setting Property=javax.xml.soap.MetaFactory to Value=org.apache.geronimo.webservices.saaj.GeronimoMetaFactory
+2010-11-27 21:30:48,575 INFO  [SystemProperties] Setting Property=java.security.Provider to Value=SUN
+2010-11-27 21:30:48,712 INFO  [KernelContextGBean] bound gbean org.apache.geronimo.configs/transaction/2.1.6/car?ServiceModule=org.apache.geronimo.configs/transaction/2.1.6/car,j2eeType=Context,name=ResourceBindings at name jca:
+2010-11-27 21:30:52,681 INFO  [SinglePoolConnectionInterceptor] Removing ManagedConnectionInfo: org.apache.geronimo.connector.outbound.ManagedConnectionInfo@6bc839a. mc: org.tranql.connector.jdbc.ManagedXAConnection@4263f6ea] from pool org.apache.geronimo.connector.outbound.SinglePoolConnectionInterceptor@30e79eb3
+2010-11-27 21:30:52,821 INFO  [KernelContextGBean] bound gbean org.apache.geronimo.configs/system-database/2.1.6/car?J2EEApplication=null,JCAConnectionFactory=SystemDatasource,JCAResource=org.apache.geronimo.configs/system-database/2.1.6/car,ResourceAdapter=org.apache.geronimo.configs/system-database/2.1.6/car,ResourceAdapterModule=org.apache.geronimo.configs/system-database/2.1.6/car,j2eeType=JCAManagedConnectionFactory,name=SystemDatasource at name org.apache.geronimo.configs/system-database/JCAManagedConnectionFactory/SystemDatasource
+2010-11-27 21:30:52,886 INFO  [KernelContextGBean] bound gbean org.apache.geronimo.configs/system-database/2.1.6/car?J2EEApplication=null,JCAConnectionFactory=NoTxDatasource,JCAResource=org.apache.geronimo.configs/system-database/2.1.6/car,ResourceAdapter=org.apache.geronimo.configs/system-database/2.1.6/car,ResourceAdapterModule=org.apache.geronimo.configs/system-database/2.1.6/car,j2eeType=JCAManagedConnectionFactory,name=NoTxDatasource at name org.apache.geronimo.configs/system-database/JCAManagedConnectionFactory/NoTxDatasource
+2010-11-27 21:30:52,978 INFO  [SystemProperties] Setting Property=openejb.vendor.config to Value=GERONIMO
+2010-11-27 21:30:53,081 INFO  [service] Creating TransactionManager(id=Default Transaction Manager)
+2010-11-27 21:30:53,095 INFO  [service] Creating SecurityService(id=Default Security Service)
+2010-11-27 21:30:53,096 INFO  [service] Creating ProxyFactory(id=Default JDK 1.3 ProxyFactory)
+2010-11-27 21:30:53,126 INFO  [config] Configuring Service(id=Default Stateless Container, type=Container, provider-id=Default Stateless Container)
+2010-11-27 21:30:53,127 INFO  [service] Creating Container(id=Default Stateless Container)
+2010-11-27 21:30:53,153 INFO  [config] Configuring Service(id=Default Stateful Container, type=Container, provider-id=Default Stateful Container)
+2010-11-27 21:30:53,154 INFO  [service] Creating Container(id=Default Stateful Container)
+2010-11-27 21:30:53,165 INFO  [OpenEJB] Using directory /tmp for stateful session passivation
+2010-11-27 21:30:53,166 INFO  [config] Configuring Service(id=Default BMP Container, type=Container, provider-id=Default BMP Container)
+2010-11-27 21:30:53,166 INFO  [service] Creating Container(id=Default BMP Container)
+2010-11-27 21:30:53,173 INFO  [config] Configuring Service(id=Default CMP Container, type=Container, provider-id=Default CMP Container)
+2010-11-27 21:30:53,173 INFO  [service] Creating Container(id=Default CMP Container)
+2010-11-27 21:30:53,253 INFO  [KernelContextGBean] bound gbean org.apache.geronimo.configs/axis/2.1.6/car?ServiceModule=org.apache.geronimo.configs/axis/2.1.6/car,j2eeType=JAXRConnectionFactory,name=eis/JAXR at name org.apache.geronimo.configs/axis/JAXRConnectionFactory/eis/JAXR
+2010-11-27 21:30:53,590 ERROR [NameService] Incorrect level of org.omg.CORBA classes found.
+Likely cause is an incorrect java.endorsed.dirs configuration
+2010-11-27 21:30:53,591 ERROR [GBeanInstanceState] Error while starting; GBean is now in the FAILED state: abstractName="org.apache.geronimo.configs/j2ee-corba-yoko/2.1.6/car?ServiceModule=org.apache.geronimo.configs/j2ee-corba-yoko/2.1.6/car,j2eeType=CORBANameService,name=NameServer"
+org.apache.geronimo.gbean.InvalidConfigurationException: CORBA usage requires Yoko CORBA spec classes in java.endorsed.dirs classpath
+	at org.apache.geronimo.corba.NameService.doStart(NameService.java:168)
+	at org.apache.geronimo.gbean.runtime.GBeanInstance.createInstance(GBeanInstance.java:998)
+	at org.apache.geronimo.gbean.runtime.GBeanInstanceState.attemptFullStart(GBeanInstanceState.java:268)
+	at org.apache.geronimo.gbean.runtime.GBeanInstanceState.start(GBeanInstanceState.java:102)
+	at org.apache.geronimo.gbean.runtime.GBeanInstance.start(GBeanInstance.java:541)
+	at org.apache.geronimo.gbean.runtime.GBeanDependency.attemptFullStart(GBeanDependency.java:111)
+	at org.apache.geronimo.gbean.runtime.GBeanDependency.addTarget(GBeanDependency.java:146)
+	at org.apache.geronimo.gbean.runtime.GBeanDependency$1.running(GBeanDependency.java:120)
+	at org.apache.geronimo.kernel.basic.BasicLifecycleMonitor.fireRunningEvent(BasicLifecycleMonitor.java:176)
+	at org.apache.geronimo.kernel.basic.BasicLifecycleMonitor.access$300(BasicLifecycleMonitor.java:44)
+	at org.apache.geronimo.kernel.basic.BasicLifecycleMonitor$RawLifecycleBroadcaster.fireRunningEvent(BasicLifecycleMonitor.java:254)
+	at org.apache.geronimo.gbean.runtime.GBeanInstanceState.attemptFullStart(GBeanInstanceState.java:294)
+	at org.apache.geronimo.gbean.runtime.GBeanInstanceState.start(GBeanInstanceState.java:102)
+	at org.apache.geronimo.gbean.runtime.GBeanInstanceState.startRecursive(GBeanInstanceState.java:124)
+	at org.apache.geronimo.gbean.runtime.GBeanInstance.startRecursive(GBeanInstance.java:555)
+	at org.apache.geronimo.kernel.basic.BasicKernel.startRecursiveGBean(BasicKernel.java:379)
+	at org.apache.geronimo.kernel.config.ConfigurationUtil.startConfigurationGBeans(ConfigurationUtil.java:456)
+	at org.apache.geronimo.kernel.config.KernelConfigurationManager.start(KernelConfigurationManager.java:188)
+	at org.apache.geronimo.kernel.config.SimpleConfigurationManager.startConfiguration(SimpleConfigurationManager.java:563)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.apache.geronimo.gbean.runtime.ReflectionMethodInvoker.invoke(ReflectionMethodInvoker.java:34)
+	at org.apache.geronimo.gbean.runtime.GBeanOperation.invoke(GBeanOperation.java:124)
+	at org.apache.geronimo.gbean.runtime.GBeanInstance.invoke(GBeanInstance.java:832)
+	at org.apache.geronimo.gbean.runtime.RawInvoker.invoke(RawInvoker.java:57)
+	at org.apache.geronimo.kernel.basic.RawOperationInvoker.invoke(RawOperationInvoker.java:35)
+	at org.apache.geronimo.kernel.basic.ProxyMethodInterceptor.intercept(ProxyMethodInterceptor.java:96)
+	at org.apache.geronimo.gbean.GBeanLifecycle$$EnhancerByCGLIB$$654b29a.startConfiguration(<generated>)
+	at org.apache.geronimo.system.main.EmbeddedDaemon.doStartup(EmbeddedDaemon.java:206)
+	at org.apache.geronimo.system.main.EmbeddedDaemon.execute(EmbeddedDaemon.java:89)
+	at org.apache.geronimo.kernel.util.MainConfigurationBootstrapper.main(MainConfigurationBootstrapper.java:45)
+	at org.apache.geronimo.cli.AbstractCLI.executeMain(AbstractCLI.java:67)
+	at org.apache.geronimo.cli.daemon.DaemonCLI.main(DaemonCLI.java:30)
+Caused by: java.lang.NoSuchMethodError: org.omg.PortableInterceptor.IORInterceptor_3_0.adapter_manager_state_changed(Ljava/lang/String;S)V
+	at org.apache.yoko.orb.OB.PIManager.adapterManagerStateChange(PIManager.java:532)
+	at org.apache.yoko.orb.OBPortableServer.POAManager_impl.activate(POAManager_impl.java:221)
+	at org.apache.yoko.orb.CosNaming.tnaming.TransientNameService.initialize(TransientNameService.java:131)
+	at org.apache.geronimo.yoko.ORBConfigAdapter$1.run(ORBConfigAdapter.java:188)
+	at org.apache.geronimo.yoko.ORBConfigAdapter.createNameService(ORBConfigAdapter.java:191)
+	at org.apache.geronimo.corba.NameService.doStart(NameService.java:164)
+	... 33 more
+2010-11-27 21:30:53,594 ERROR [GBeanInstanceState] Error while starting; GBean is now in the FAILED state: abstractName="org.apache.geronimo.configs/j2ee-corba-yoko/2.1.6/car?ServiceModule=org.apache.geronimo.configs/j2ee-corba-yoko/2.1.6/car,j2eeType=CORBANameService,name=NameServer"
+org.apache.geronimo.corba.security.config.ConfigException: Error starting transient name service on port 1050
+	at org.apache.geronimo.yoko.ORBConfigAdapter.createNameService(ORBConfigAdapter.java:196)
+	at org.apache.geronimo.corba.NameService.doStart(NameService.java:164)
+	at org.apache.geronimo.gbean.runtime.GBeanInstance.createInstance(GBeanInstance.java:998)
+	at org.apache.geronimo.gbean.runtime.GBeanInstanceState.attemptFullStart(GBeanInstanceState.java:268)
+	at org.apache.geronimo.gbean.runtime.GBeanInstanceState.start(GBeanInstanceState.java:102)
+	at org.apache.geronimo.gbean.runtime.GBeanInstanceState.startRecursive(GBeanInstanceState.java:124)
+	at org.apache.geronimo.gbean.runtime.GBeanInstance.startRecursive(GBeanInstance.java:555)
+	at org.apache.geronimo.kernel.basic.BasicKernel.startRecursiveGBean(BasicKernel.java:379)
+	at org.apache.geronimo.kernel.config.ConfigurationUtil.startConfigurationGBeans(ConfigurationUtil.java:456)
+	at org.apache.geronimo.kernel.config.KernelConfigurationManager.start(KernelConfigurationManager.java:188)
+	at org.apache.geronimo.kernel.config.SimpleConfigurationManager.startConfiguration(SimpleConfigurationManager.java:563)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.apache.geronimo.gbean.runtime.ReflectionMethodInvoker.invoke(ReflectionMethodInvoker.java:34)
+	at org.apache.geronimo.gbean.runtime.GBeanOperation.invoke(GBeanOperation.java:124)
+	at org.apache.geronimo.gbean.runtime.GBeanInstance.invoke(GBeanInstance.java:832)
+	at org.apache.geronimo.gbean.runtime.RawInvoker.invoke(RawInvoker.java:57)
+	at org.apache.geronimo.kernel.basic.RawOperationInvoker.invoke(RawOperationInvoker.java:35)
+	at org.apache.geronimo.kernel.basic.ProxyMethodInterceptor.intercept(ProxyMethodInterceptor.java:96)
+	at org.apache.geronimo.gbean.GBeanLifecycle$$EnhancerByCGLIB$$654b29a.startConfiguration(<generated>)
+	at org.apache.geronimo.system.main.EmbeddedDaemon.doStartup(EmbeddedDaemon.java:206)
+	at org.apache.geronimo.system.main.EmbeddedDaemon.execute(EmbeddedDaemon.java:89)
+	at org.apache.geronimo.kernel.util.MainConfigurationBootstrapper.main(MainConfigurationBootstrapper.java:45)
+	at org.apache.geronimo.cli.AbstractCLI.executeMain(AbstractCLI.java:67)
+	at org.apache.geronimo.cli.daemon.DaemonCLI.main(DaemonCLI.java:30)
+Caused by: org.apache.yoko.orb.CosNaming.tnaming.TransientServiceException: Unable to initialize name service
+	at org.apache.yoko.orb.CosNaming.tnaming.TransientNameService.initialize(TransientNameService.java:156)
+	at org.apache.geronimo.yoko.ORBConfigAdapter$1.run(ORBConfigAdapter.java:188)
+	at org.apache.geronimo.yoko.ORBConfigAdapter.createNameService(ORBConfigAdapter.java:191)
+	... 25 more
+Caused by: org.omg.CORBA.COMM_FAILURE: bind() failed: Address already in use  vmcid: 0x41534000  minor code: 8  completed: No
+	at org.apache.yoko.orb.OCI.IIOP.Acceptor_impl.<init>(Acceptor_impl.java:542)
+	at org.apache.yoko.orb.OCI.IIOP.AccFactory_impl.create_acceptor(AccFactory_impl.java:163)
+	at org.apache.yoko.orb.OBPortableServer.POAManagerFactory_impl.create_POAManager(POAManagerFactory_impl.java:252)
+	at org.apache.yoko.orb.OB.ORBControl.initializeRootPOA(ORBControl.java:539)
+	at org.apache.yoko.orb.OBCORBA.ORB_impl.resolve_initial_references(ORB_impl.java:1098)
+	at org.apache.yoko.orb.CosNaming.tnaming.TransientNameService.initialize(TransientNameService.java:130)
+	... 27 more
+Caused by: java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:336)
+	at java.net.ServerSocket.bind(ServerSocket.java:336)
+	at java.net.ServerSocket.<init>(ServerSocket.java:202)
+	at org.apache.yoko.orb.OCI.IIOP.DefaultConnectionHelper.createServerSocket(DefaultConnectionHelper.java:55)
+	at org.apache.yoko.orb.OCI.IIOP.Acceptor_impl.<init>(Acceptor_impl.java:532)
+	... 32 more
+2010-11-27 21:30:53,625 INFO  [remote] Received stop signal
+2010-11-27 21:30:53,628 INFO  [KernelContextGBean] unbound gbean org.apache.geronimo.configs/axis/2.1.6/car?ServiceModule=org.apache.geronimo.configs/axis/2.1.6/car,j2eeType=JAXRConnectionFactory,name=eis/JAXR at name org.apache.geronimo.configs/axis/JAXRConnectionFactory/eis/JAXR
+2010-11-27 21:30:53,630 INFO  [KernelContextGBean] unbound gbean org.apache.geronimo.configs/system-database/2.1.6/car?J2EEApplication=null,JCAConnectionFactory=NoTxDatasource,JCAResource=org.apache.geronimo.configs/system-database/2.1.6/car,ResourceAdapter=org.apache.geronimo.configs/system-database/2.1.6/car,ResourceAdapterModule=org.apache.geronimo.configs/system-database/2.1.6/car,j2eeType=JCAManagedConnectionFactory,name=NoTxDatasource at name org.apache.geronimo.configs/system-database/JCAManagedConnectionFactory/NoTxDatasource
+2010-11-27 21:30:54,013 INFO  [KernelContextGBean] unbound gbean org.apache.geronimo.configs/system-database/2.1.6/car?J2EEApplication=null,JCAConnectionFactory=SystemDatasource,JCAResource=org.apache.geronimo.configs/system-database/2.1.6/car,ResourceAdapter=org.apache.geronimo.configs/system-database/2.1.6/car,ResourceAdapterModule=org.apache.geronimo.configs/system-database/2.1.6/car,j2eeType=JCAManagedConnectionFactory,name=SystemDatasource at name org.apache.geronimo.configs/system-database/JCAManagedConnectionFactory/SystemDatasource
+2010-11-27 21:30:54,014 INFO  [KernelContextGBean] unbound gbean org.apache.geronimo.configs/transaction/2.1.6/car?ServiceModule=org.apache.geronimo.configs/transaction/2.1.6/car,j2eeType=Context,name=ResourceBindings at name jca:
+2010-11-27 21:30:54,043 INFO  [KernelContextGBean] unbound gbean org.apache.geronimo.framework/rmi-naming/2.1.6/car?ServiceModule=org.apache.geronimo.framework/rmi-naming/2.1.6/car,j2eeType=Context,name=JavaContext at name java:
+2010-11-27 21:30:54,047 INFO  [KernelContextGBean] unbound gbean org.apache.geronimo.framework/rmi-naming/2.1.6/car?ServiceModule=org.apache.geronimo.framework/rmi-naming/2.1.6/car,j2eeType=Context,name=GeronimoContext at name ger:
+2010-11-27 21:30:54,047 INFO  [KernelContextGBean] unbound gbean org.apache.geronimo.framework/rmi-naming/2.1.6/car?ServiceModule=org.apache.geronimo.framework/rmi-naming/2.1.6/car,j2eeType=Context,name=JavaCompContext at name java:comp
+2010-11-27 21:30:54,047 INFO  [Log4jService] Stopping Logging Service
+2010-11-27 21:30:54,047 INFO  [Log4jService] ----------------------------------------------
+2010-11-27 21:35:52,597 INFO  [Log4jService] ----------------------------------------------
+2010-11-27 21:35:52,597 INFO  [Log4jService] Started Logging Service
+2010-11-27 21:35:52,597 INFO  [Log4jService] Runtime Information:
+2010-11-27 21:35:52,597 INFO  [Log4jService]   Install Directory = /home/user1/geronimo/geronimo-tomcat6-javaee5-2.1.6
+2010-11-27 21:35:52,597 INFO  [JvmVendor] Sun JVM 1.6.0_18
+2010-11-27 21:35:52,597 INFO  [Log4jService]   JVM in use = Sun JVM 1.6.0_18
+2010-11-27 21:35:52,597 INFO  [Log4jService] Java Information:
+2010-11-27 21:35:52,597 INFO  [Log4jService]   System property [java.runtime.name]  = OpenJDK Runtime Environment
+2010-11-27 21:35:52,597 INFO  [Log4jService]   System property [java.runtime.version]  = 1.6.0_18-b18
+2010-11-27 21:35:52,597 INFO  [Log4jService]   System property [os.name]             = Linux
+2010-11-27 21:35:52,598 INFO  [Log4jService]   System property [os.version]          = 2.6.32-24-generic
+2010-11-27 21:35:52,598 INFO  [Log4jService]   System property [sun.os.patch.level]  = unknown
+2010-11-27 21:35:52,598 INFO  [Log4jService]   System property [os.arch]             = amd64
+2010-11-27 21:35:52,598 INFO  [Log4jService]   System property [java.class.version]  = 50.0
+2010-11-27 21:35:52,598 INFO  [Log4jService]   System property [locale]              = en_AU
+2010-11-27 21:35:52,598 INFO  [Log4jService]   System property [unicode.encoding]    = UnicodeLittle
+2010-11-27 21:35:52,598 INFO  [Log4jService]   System property [file.encoding]       = UTF-8
+2010-11-27 21:35:52,598 INFO  [Log4jService]   System property [java.vm.name]        = OpenJDK 64-Bit Server VM
+2010-11-27 21:35:52,598 INFO  [Log4jService]   System property [java.vm.vendor]      = Sun Microsystems Inc.
+2010-11-27 21:35:52,598 INFO  [Log4jService]   System property [java.vm.version]     = 16.0-b13
+2010-11-27 21:35:52,598 INFO  [Log4jService]   System property [java.vm.info]        = mixed mode
+2010-11-27 21:35:52,598 INFO  [Log4jService]   System property [java.home]           = /usr/lib/jvm/java-6-openjdk/jre
+2010-11-27 21:35:52,598 INFO  [Log4jService]   System property [java.classpath]      = null
+2010-11-27 21:35:52,598 INFO  [Log4jService]   System property [java.library.path]   = /usr/lib/jvm/java-6-openjdk/jre/lib/amd64/server:/usr/lib/jvm/java-6-openjdk/jre/lib/amd64:/usr/lib/jvm/java-6-openjdk/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib/jni:/lib:/usr/lib
+2010-11-27 21:35:52,598 INFO  [Log4jService]   System property [java.endorsed.dirs]  = /usr/lib/jvm/java-6-openjdk/jre/lib/endorsed
+2010-11-27 21:35:52,598 INFO  [Log4jService]   System property [java.ext.dirs]       = /usr/lib/jvm/java-6-openjdk/jre/lib/ext:/usr/java/packages/lib/ext
+2010-11-27 21:35:52,598 INFO  [Log4jService]   System property [sun.boot.class.path] = /usr/lib/jvm/java-6-openjdk/jre/lib/resources.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/rt.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/jsse.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/jce.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/charsets.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/rhino.jar:/usr/lib/jvm/java-6-openjdk/jre/classes
+2010-11-27 21:35:52,598 INFO  [Log4jService] ----------------------------------------------
+2010-11-27 21:35:53,088 INFO  [KernelContextGBean] bound gbean org.apache.geronimo.framework/rmi-naming/2.1.6/car?ServiceModule=org.apache.geronimo.framework/rmi-naming/2.1.6/car,j2eeType=Context,name=JavaCompContext at name java:comp
+2010-11-27 21:35:53,089 INFO  [KernelContextGBean] bound gbean org.apache.geronimo.framework/rmi-naming/2.1.6/car?ServiceModule=org.apache.geronimo.framework/rmi-naming/2.1.6/car,j2eeType=Context,name=JavaContext at name java:
+2010-11-27 21:35:53,089 INFO  [KernelContextGBean] bound gbean org.apache.geronimo.framework/rmi-naming/2.1.6/car?ServiceModule=org.apache.geronimo.framework/rmi-naming/2.1.6/car,j2eeType=Context,name=GeronimoContext at name ger:
+2010-11-27 21:35:53,603 INFO  [SystemProperties] Setting Property=java.net.preferIPv4Stack to Value=true
+2010-11-27 21:35:53,603 INFO  [SystemProperties] Setting Property=javax.xml.soap.MessageFactory to Value=org.apache.geronimo.webservices.saaj.GeronimoMessageFactory
+2010-11-27 21:35:53,603 INFO  [SystemProperties] Setting Property=org.apache.cxf.jaxws.checkPublishEndpointPermission to Value=true
+2010-11-27 21:35:53,603 INFO  [SystemProperties] Setting Property=javax.xml.soap.SOAPConnectionFactory to Value=org.apache.geronimo.webservices.saaj.GeronimoSOAPConnectionFactory
+2010-11-27 21:35:53,603 INFO  [SystemProperties] Setting Property=javax.xml.soap.SOAPFactory to Value=org.apache.geronimo.webservices.saaj.GeronimoSOAPFactory
+2010-11-27 21:35:53,603 INFO  [SystemProperties] Setting Property=javax.xml.soap.MetaFactory to Value=org.apache.geronimo.webservices.saaj.GeronimoMetaFactory
+2010-11-27 21:35:53,603 INFO  [SystemProperties] Setting Property=java.security.Provider to Value=SUN
+2010-11-27 21:35:53,702 INFO  [KernelContextGBean] bound gbean org.apache.geronimo.configs/transaction/2.1.6/car?ServiceModule=org.apache.geronimo.configs/transaction/2.1.6/car,j2eeType=Context,name=ResourceBindings at name jca:
+2010-11-27 21:35:54,207 INFO  [SinglePoolConnectionInterceptor] Removing ManagedConnectionInfo: org.apache.geronimo.connector.outbound.ManagedConnectionInfo@205bfbd8. mc: org.tranql.connector.jdbc.ManagedXAConnection@76f33280] from pool org.apache.geronimo.connector.outbound.SinglePoolConnectionInterceptor@5878ae82
+2010-11-27 21:35:54,409 INFO  [KernelContextGBean] bound gbean org.apache.geronimo.configs/system-database/2.1.6/car?J2EEApplication=null,JCAConnectionFactory=SystemDatasource,JCAResource=org.apache.geronimo.configs/system-database/2.1.6/car,ResourceAdapter=org.apache.geronimo.configs/system-database/2.1.6/car,ResourceAdapterModule=org.apache.geronimo.configs/system-database/2.1.6/car,j2eeType=JCAManagedConnectionFactory,name=SystemDatasource at name org.apache.geronimo.configs/system-database/JCAManagedConnectionFactory/SystemDatasource
+2010-11-27 21:35:54,481 INFO  [KernelContextGBean] bound gbean org.apache.geronimo.configs/system-database/2.1.6/car?J2EEApplication=null,JCAConnectionFactory=NoTxDatasource,JCAResource=org.apache.geronimo.configs/system-database/2.1.6/car,ResourceAdapter=org.apache.geronimo.configs/system-database/2.1.6/car,ResourceAdapterModule=org.apache.geronimo.configs/system-database/2.1.6/car,j2eeType=JCAManagedConnectionFactory,name=NoTxDatasource at name org.apache.geronimo.configs/system-database/JCAManagedConnectionFactory/NoTxDatasource
+2010-11-27 21:35:54,549 INFO  [SystemProperties] Setting Property=openejb.vendor.config to Value=GERONIMO
+2010-11-27 21:35:54,644 INFO  [service] Creating TransactionManager(id=Default Transaction Manager)
+2010-11-27 21:35:54,658 INFO  [service] Creating SecurityService(id=Default Security Service)
+2010-11-27 21:35:54,658 INFO  [service] Creating ProxyFactory(id=Default JDK 1.3 ProxyFactory)
+2010-11-27 21:35:54,684 INFO  [config] Configuring Service(id=Default Stateless Container, type=Container, provider-id=Default Stateless Container)
+2010-11-27 21:35:54,685 INFO  [service] Creating Container(id=Default Stateless Container)
+2010-11-27 21:35:54,710 INFO  [config] Configuring Service(id=Default Stateful Container, type=Container, provider-id=Default Stateful Container)
+2010-11-27 21:35:54,710 INFO  [service] Creating Container(id=Default Stateful Container)
+2010-11-27 21:35:54,721 INFO  [OpenEJB] Using directory /tmp for stateful session passivation
+2010-11-27 21:35:54,721 INFO  [config] Configuring Service(id=Default BMP Container, type=Container, provider-id=Default BMP Container)
+2010-11-27 21:35:54,721 INFO  [service] Creating Container(id=Default BMP Container)
+2010-11-27 21:35:54,728 INFO  [config] Configuring Service(id=Default CMP Container, type=Container, provider-id=Default CMP Container)
+2010-11-27 21:35:54,728 INFO  [service] Creating Container(id=Default CMP Container)
+2010-11-27 21:35:54,812 INFO  [KernelContextGBean] bound gbean org.apache.geronimo.configs/axis/2.1.6/car?ServiceModule=org.apache.geronimo.configs/axis/2.1.6/car,j2eeType=JAXRConnectionFactory,name=eis/JAXR at name org.apache.geronimo.configs/axis/JAXRConnectionFactory/eis/JAXR
+2010-11-27 21:35:55,061 ERROR [NameService] Incorrect level of org.omg.CORBA classes found.
+Likely cause is an incorrect java.endorsed.dirs configuration
+2010-11-27 21:35:55,062 ERROR [GBeanInstanceState] Error while starting; GBean is now in the FAILED state: abstractName="org.apache.geronimo.configs/j2ee-corba-yoko/2.1.6/car?ServiceModule=org.apache.geronimo.configs/j2ee-corba-yoko/2.1.6/car,j2eeType=CORBANameService,name=NameServer"
+org.apache.geronimo.gbean.InvalidConfigurationException: CORBA usage requires Yoko CORBA spec classes in java.endorsed.dirs classpath
+	at org.apache.geronimo.corba.NameService.doStart(NameService.java:168)
+	at org.apache.geronimo.gbean.runtime.GBeanInstance.createInstance(GBeanInstance.java:998)
+	at org.apache.geronimo.gbean.runtime.GBeanInstanceState.attemptFullStart(GBeanInstanceState.java:268)
+	at org.apache.geronimo.gbean.runtime.GBeanInstanceState.start(GBeanInstanceState.java:102)
+	at org.apache.geronimo.gbean.runtime.GBeanInstance.start(GBeanInstance.java:541)
+	at org.apache.geronimo.gbean.runtime.GBeanDependency.attemptFullStart(GBeanDependency.java:111)
+	at org.apache.geronimo.gbean.runtime.GBeanDependency.addTarget(GBeanDependency.java:146)
+	at org.apache.geronimo.gbean.runtime.GBeanDependency$1.running(GBeanDependency.java:120)
+	at org.apache.geronimo.kernel.basic.BasicLifecycleMonitor.fireRunningEvent(BasicLifecycleMonitor.java:176)
+	at org.apache.geronimo.kernel.basic.BasicLifecycleMonitor.access$300(BasicLifecycleMonitor.java:44)
+	at org.apache.geronimo.kernel.basic.BasicLifecycleMonitor$RawLifecycleBroadcaster.fireRunningEvent(BasicLifecycleMonitor.java:254)
+	at org.apache.geronimo.gbean.runtime.GBeanInstanceState.attemptFullStart(GBeanInstanceState.java:294)
+	at org.apache.geronimo.gbean.runtime.GBeanInstanceState.start(GBeanInstanceState.java:102)
+	at org.apache.geronimo.gbean.runtime.GBeanInstanceState.startRecursive(GBeanInstanceState.java:124)
+	at org.apache.geronimo.gbean.runtime.GBeanInstance.startRecursive(GBeanInstance.java:555)
+	at org.apache.geronimo.kernel.basic.BasicKernel.startRecursiveGBean(BasicKernel.java:379)
+	at org.apache.geronimo.kernel.config.ConfigurationUtil.startConfigurationGBeans(ConfigurationUtil.java:456)
+	at org.apache.geronimo.kernel.config.KernelConfigurationManager.start(KernelConfigurationManager.java:188)
+	at org.apache.geronimo.kernel.config.SimpleConfigurationManager.startConfiguration(SimpleConfigurationManager.java:563)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.apache.geronimo.gbean.runtime.ReflectionMethodInvoker.invoke(ReflectionMethodInvoker.java:34)
+	at org.apache.geronimo.gbean.runtime.GBeanOperation.invoke(GBeanOperation.java:124)
+	at org.apache.geronimo.gbean.runtime.GBeanInstance.invoke(GBeanInstance.java:832)
+	at org.apache.geronimo.gbean.runtime.RawInvoker.invoke(RawInvoker.java:57)
+	at org.apache.geronimo.kernel.basic.RawOperationInvoker.invoke(RawOperationInvoker.java:35)
+	at org.apache.geronimo.kernel.basic.ProxyMethodInterceptor.intercept(ProxyMethodInterceptor.java:96)
+	at org.apache.geronimo.gbean.GBeanLifecycle$$EnhancerByCGLIB$$744cb8f1.startConfiguration(<generated>)
+	at org.apache.geronimo.system.main.EmbeddedDaemon.doStartup(EmbeddedDaemon.java:206)
+	at org.apache.geronimo.system.main.EmbeddedDaemon.execute(EmbeddedDaemon.java:89)
+	at org.apache.geronimo.kernel.util.MainConfigurationBootstrapper.main(MainConfigurationBootstrapper.java:45)
+	at org.apache.geronimo.cli.AbstractCLI.executeMain(AbstractCLI.java:67)
+	at org.apache.geronimo.cli.daemon.DaemonCLI.main(DaemonCLI.java:30)
+Caused by: java.lang.NoSuchMethodError: org.omg.PortableInterceptor.IORInterceptor_3_0.adapter_manager_state_changed(Ljava/lang/String;S)V
+	at org.apache.yoko.orb.OB.PIManager.adapterManagerStateChange(PIManager.java:532)
+	at org.apache.yoko.orb.OBPortableServer.POAManager_impl.activate(POAManager_impl.java:221)
+	at org.apache.yoko.orb.CosNaming.tnaming.TransientNameService.initialize(TransientNameService.java:131)
+	at org.apache.geronimo.yoko.ORBConfigAdapter$1.run(ORBConfigAdapter.java:188)
+	at org.apache.geronimo.yoko.ORBConfigAdapter.createNameService(ORBConfigAdapter.java:191)
+	at org.apache.geronimo.corba.NameService.doStart(NameService.java:164)
+	... 33 more
+2010-11-27 21:35:55,065 ERROR [GBeanInstanceState] Error while starting; GBean is now in the FAILED state: abstractName="org.apache.geronimo.configs/j2ee-corba-yoko/2.1.6/car?ServiceModule=org.apache.geronimo.configs/j2ee-corba-yoko/2.1.6/car,j2eeType=CORBANameService,name=NameServer"
+org.apache.geronimo.corba.security.config.ConfigException: Error starting transient name service on port 1050
+	at org.apache.geronimo.yoko.ORBConfigAdapter.createNameService(ORBConfigAdapter.java:196)
+	at org.apache.geronimo.corba.NameService.doStart(NameService.java:164)
+	at org.apache.geronimo.gbean.runtime.GBeanInstance.createInstance(GBeanInstance.java:998)
+	at org.apache.geronimo.gbean.runtime.GBeanInstanceState.attemptFullStart(GBeanInstanceState.java:268)
+	at org.apache.geronimo.gbean.runtime.GBeanInstanceState.start(GBeanInstanceState.java:102)
+	at org.apache.geronimo.gbean.runtime.GBeanInstanceState.startRecursive(GBeanInstanceState.java:124)
+	at org.apache.geronimo.gbean.runtime.GBeanInstance.startRecursive(GBeanInstance.java:555)
+	at org.apache.geronimo.kernel.basic.BasicKernel.startRecursiveGBean(BasicKernel.java:379)
+	at org.apache.geronimo.kernel.config.ConfigurationUtil.startConfigurationGBeans(ConfigurationUtil.java:456)
+	at org.apache.geronimo.kernel.config.KernelConfigurationManager.start(KernelConfigurationManager.java:188)
+	at org.apache.geronimo.kernel.config.SimpleConfigurationManager.startConfiguration(SimpleConfigurationManager.java:563)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.apache.geronimo.gbean.runtime.ReflectionMethodInvoker.invoke(ReflectionMethodInvoker.java:34)
+	at org.apache.geronimo.gbean.runtime.GBeanOperation.invoke(GBeanOperation.java:124)
+	at org.apache.geronimo.gbean.runtime.GBeanInstance.invoke(GBeanInstance.java:832)
+	at org.apache.geronimo.gbean.runtime.RawInvoker.invoke(RawInvoker.java:57)
+	at org.apache.geronimo.kernel.basic.RawOperationInvoker.invoke(RawOperationInvoker.java:35)
+	at org.apache.geronimo.kernel.basic.ProxyMethodInterceptor.intercept(ProxyMethodInterceptor.java:96)
+	at org.apache.geronimo.gbean.GBeanLifecycle$$EnhancerByCGLIB$$744cb8f1.startConfiguration(<generated>)
+	at org.apache.geronimo.system.main.EmbeddedDaemon.doStartup(EmbeddedDaemon.java:206)
+	at org.apache.geronimo.system.main.EmbeddedDaemon.execute(EmbeddedDaemon.java:89)
+	at org.apache.geronimo.kernel.util.MainConfigurationBootstrapper.main(MainConfigurationBootstrapper.java:45)
+	at org.apache.geronimo.cli.AbstractCLI.executeMain(AbstractCLI.java:67)
+	at org.apache.geronimo.cli.daemon.DaemonCLI.main(DaemonCLI.java:30)
+Caused by: org.apache.yoko.orb.CosNaming.tnaming.TransientServiceException: Unable to initialize name service
+	at org.apache.yoko.orb.CosNaming.tnaming.TransientNameService.initialize(TransientNameService.java:156)
+	at org.apache.geronimo.yoko.ORBConfigAdapter$1.run(ORBConfigAdapter.java:188)
+	at org.apache.geronimo.yoko.ORBConfigAdapter.createNameService(ORBConfigAdapter.java:191)
+	... 25 more
+Caused by: org.omg.CORBA.COMM_FAILURE: bind() failed: Address already in use  vmcid: 0x41534000  minor code: 8  completed: No
+	at org.apache.yoko.orb.OCI.IIOP.Acceptor_impl.<init>(Acceptor_impl.java:542)
+	at org.apache.yoko.orb.OCI.IIOP.AccFactory_impl.create_acceptor(AccFactory_impl.java:163)
+	at org.apache.yoko.orb.OBPortableServer.POAManagerFactory_impl.create_POAManager(POAManagerFactory_impl.java:252)
+	at org.apache.yoko.orb.OB.ORBControl.initializeRootPOA(ORBControl.java:539)
+	at org.apache.yoko.orb.OBCORBA.ORB_impl.resolve_initial_references(ORB_impl.java:1098)
+	at org.apache.yoko.orb.CosNaming.tnaming.TransientNameService.initialize(TransientNameService.java:130)
+	... 27 more
+Caused by: java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:336)
+	at java.net.ServerSocket.bind(ServerSocket.java:336)
+	at java.net.ServerSocket.<init>(ServerSocket.java:202)
+	at org.apache.yoko.orb.OCI.IIOP.DefaultConnectionHelper.createServerSocket(DefaultConnectionHelper.java:55)
+	at org.apache.yoko.orb.OCI.IIOP.Acceptor_impl.<init>(Acceptor_impl.java:532)
+	... 32 more
+2010-11-27 21:35:55,096 INFO  [remote] Received stop signal
+2010-11-27 21:35:55,101 INFO  [KernelContextGBean] unbound gbean org.apache.geronimo.configs/axis/2.1.6/car?ServiceModule=org.apache.geronimo.configs/axis/2.1.6/car,j2eeType=JAXRConnectionFactory,name=eis/JAXR at name org.apache.geronimo.configs/axis/JAXRConnectionFactory/eis/JAXR
+2010-11-27 21:35:55,103 INFO  [KernelContextGBean] unbound gbean org.apache.geronimo.configs/system-database/2.1.6/car?J2EEApplication=null,JCAConnectionFactory=NoTxDatasource,JCAResource=org.apache.geronimo.configs/system-database/2.1.6/car,ResourceAdapter=org.apache.geronimo.configs/system-database/2.1.6/car,ResourceAdapterModule=org.apache.geronimo.configs/system-database/2.1.6/car,j2eeType=JCAManagedConnectionFactory,name=NoTxDatasource at name org.apache.geronimo.configs/system-database/JCAManagedConnectionFactory/NoTxDatasource
+2010-11-27 21:35:55,374 INFO  [KernelContextGBean] unbound gbean org.apache.geronimo.configs/system-database/2.1.6/car?J2EEApplication=null,JCAConnectionFactory=SystemDatasource,JCAResource=org.apache.geronimo.configs/system-database/2.1.6/car,ResourceAdapter=org.apache.geronimo.configs/system-database/2.1.6/car,ResourceAdapterModule=org.apache.geronimo.configs/system-database/2.1.6/car,j2eeType=JCAManagedConnectionFactory,name=SystemDatasource at name org.apache.geronimo.configs/system-database/JCAManagedConnectionFactory/SystemDatasource
+2010-11-27 21:35:55,377 INFO  [KernelContextGBean] unbound gbean org.apache.geronimo.configs/transaction/2.1.6/car?ServiceModule=org.apache.geronimo.configs/transaction/2.1.6/car,j2eeType=Context,name=ResourceBindings at name jca:
+2010-11-27 21:35:55,408 INFO  [KernelContextGBean] unbound gbean org.apache.geronimo.framework/rmi-naming/2.1.6/car?ServiceModule=org.apache.geronimo.framework/rmi-naming/2.1.6/car,j2eeType=Context,name=JavaContext at name java:
+2010-11-27 21:35:55,417 INFO  [KernelContextGBean] unbound gbean org.apache.geronimo.framework/rmi-naming/2.1.6/car?ServiceModule=org.apache.geronimo.framework/rmi-naming/2.1.6/car,j2eeType=Context,name=GeronimoContext at name ger:
+2010-11-27 21:35:55,417 INFO  [KernelContextGBean] unbound gbean org.apache.geronimo.framework/rmi-naming/2.1.6/car?ServiceModule=org.apache.geronimo.framework/rmi-naming/2.1.6/car,j2eeType=Context,name=JavaCompContext at name java:comp
+2010-11-27 21:35:55,418 INFO  [Log4jService] Stopping Logging Service
+2010-11-27 21:35:55,418 INFO  [Log4jService] ----------------------------------------------
+2010-11-27 21:55:15,688 INFO  [Log4jService] ----------------------------------------------
+2010-11-27 21:55:15,688 INFO  [Log4jService] Started Logging Service
+2010-11-27 21:55:15,688 INFO  [Log4jService] Runtime Information:
+2010-11-27 21:55:15,688 INFO  [Log4jService]   Install Directory = /home/user1/geronimo/geronimo-tomcat6-javaee5-2.1.6
+2010-11-27 21:55:15,689 INFO  [JvmVendor] Sun JVM 1.6.0_18
+2010-11-27 21:55:15,689 INFO  [Log4jService]   JVM in use = Sun JVM 1.6.0_18
+2010-11-27 21:55:15,689 INFO  [Log4jService] Java Information:
+2010-11-27 21:55:15,689 INFO  [Log4jService]   System property [java.runtime.name]  = OpenJDK Runtime Environment
+2010-11-27 21:55:15,689 INFO  [Log4jService]   System property [java.runtime.version]  = 1.6.0_18-b18
+2010-11-27 21:55:15,689 INFO  [Log4jService]   System property [os.name]             = Linux
+2010-11-27 21:55:15,689 INFO  [Log4jService]   System property [os.version]          = 2.6.32-24-generic
+2010-11-27 21:55:15,689 INFO  [Log4jService]   System property [sun.os.patch.level]  = unknown
+2010-11-27 21:55:15,689 INFO  [Log4jService]   System property [os.arch]             = amd64
+2010-11-27 21:55:15,689 INFO  [Log4jService]   System property [java.class.version]  = 50.0
+2010-11-27 21:55:15,689 INFO  [Log4jService]   System property [locale]              = en_AU
+2010-11-27 21:55:15,689 INFO  [Log4jService]   System property [unicode.encoding]    = UnicodeLittle
+2010-11-27 21:55:15,689 INFO  [Log4jService]   System property [file.encoding]       = UTF-8
+2010-11-27 21:55:15,689 INFO  [Log4jService]   System property [java.vm.name]        = OpenJDK 64-Bit Server VM
+2010-11-27 21:55:15,689 INFO  [Log4jService]   System property [java.vm.vendor]      = Sun Microsystems Inc.
+2010-11-27 21:55:15,689 INFO  [Log4jService]   System property [java.vm.version]     = 16.0-b13
+2010-11-27 21:55:15,689 INFO  [Log4jService]   System property [java.vm.info]        = mixed mode
+2010-11-27 21:55:15,689 INFO  [Log4jService]   System property [java.home]           = /usr/lib/jvm/java-6-openjdk/jre
+2010-11-27 21:55:15,689 INFO  [Log4jService]   System property [java.classpath]      = null
+2010-11-27 21:55:15,689 INFO  [Log4jService]   System property [java.library.path]   = /usr/lib/jvm/java-6-openjdk/jre/lib/amd64/server:/usr/lib/jvm/java-6-openjdk/jre/lib/amd64:/usr/lib/jvm/java-6-openjdk/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib/jni:/lib:/usr/lib
+2010-11-27 21:55:15,689 INFO  [Log4jService]   System property [java.endorsed.dirs]  = /home/user1/geronimo/geronimo-tomcat6-javaee5-2.1.6/lib/endorsed:/usr/lib/jvm/java-6-openjdk/jre/lib/endorsed
+2010-11-27 21:55:15,689 INFO  [Log4jService]   System property [java.ext.dirs]       = /home/user1/geronimo/geronimo-tomcat6-javaee5-2.1.6/lib/ext:/usr/lib/jvm/java-6-openjdk/jre/lib/ext:/usr/java/packages/lib/ext
+2010-11-27 21:55:15,689 INFO  [Log4jService]   System property [sun.boot.class.path] = /home/user1/geronimo/geronimo-tomcat6-javaee5-2.1.6/lib/endorsed/yoko-spec-corba-1.0.jar:/home/user1/geronimo/geronimo-tomcat6-javaee5-2.1.6/lib/endorsed/yoko-rmi-spec-1.0.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/resources.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/rt.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/jsse.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/jce.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/charsets.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/rhino.jar:/usr/lib/jvm/java-6-openjdk/jre/classes
+2010-11-27 21:55:15,689 INFO  [Log4jService] ----------------------------------------------
+2010-11-27 21:55:16,216 INFO  [KernelContextGBean] bound gbean org.apache.geronimo.framework/rmi-naming/2.1.6/car?ServiceModule=org.apache.geronimo.framework/rmi-naming/2.1.6/car,j2eeType=Context,name=JavaCompContext at name java:comp
+2010-11-27 21:55:16,217 INFO  [KernelContextGBean] bound gbean org.apache.geronimo.framework/rmi-naming/2.1.6/car?ServiceModule=org.apache.geronimo.framework/rmi-naming/2.1.6/car,j2eeType=Context,name=JavaContext at name java:
+2010-11-27 21:55:16,217 INFO  [KernelContextGBean] bound gbean org.apache.geronimo.framework/rmi-naming/2.1.6/car?ServiceModule=org.apache.geronimo.framework/rmi-naming/2.1.6/car,j2eeType=Context,name=GeronimoContext at name ger:
+2010-11-27 21:55:16,748 INFO  [SystemProperties] Setting Property=java.net.preferIPv4Stack to Value=true
+2010-11-27 21:55:16,748 INFO  [SystemProperties] Setting Property=javax.xml.soap.MessageFactory to Value=org.apache.geronimo.webservices.saaj.GeronimoMessageFactory
+2010-11-27 21:55:16,748 INFO  [SystemProperties] Setting Property=org.apache.cxf.jaxws.checkPublishEndpointPermission to Value=true
+2010-11-27 21:55:16,748 INFO  [SystemProperties] Setting Property=javax.xml.soap.SOAPConnectionFactory to Value=org.apache.geronimo.webservices.saaj.GeronimoSOAPConnectionFactory
+2010-11-27 21:55:16,748 INFO  [SystemProperties] Setting Property=javax.xml.soap.SOAPFactory to Value=org.apache.geronimo.webservices.saaj.GeronimoSOAPFactory
+2010-11-27 21:55:16,748 INFO  [SystemProperties] Setting Property=javax.xml.soap.MetaFactory to Value=org.apache.geronimo.webservices.saaj.GeronimoMetaFactory
+2010-11-27 21:55:16,748 INFO  [SystemProperties] Setting Property=java.security.Provider to Value=SUN
+2010-11-27 21:55:16,850 INFO  [KernelContextGBean] bound gbean org.apache.geronimo.configs/transaction/2.1.6/car?ServiceModule=org.apache.geronimo.configs/transaction/2.1.6/car,j2eeType=Context,name=ResourceBindings at name jca:
+2010-11-27 21:55:17,421 INFO  [SinglePoolConnectionInterceptor] Removing ManagedConnectionInfo: org.apache.geronimo.connector.outbound.ManagedConnectionInfo@1d264bf5. mc: org.tranql.connector.jdbc.ManagedXAConnection@3d44d0c6] from pool org.apache.geronimo.connector.outbound.SinglePoolConnectionInterceptor@70e69696
+2010-11-27 21:55:17,676 INFO  [KernelContextGBean] bound gbean org.apache.geronimo.configs/system-database/2.1.6/car?J2EEApplication=null,JCAConnectionFactory=SystemDatasource,JCAResource=org.apache.geronimo.configs/system-database/2.1.6/car,ResourceAdapter=org.apache.geronimo.configs/system-database/2.1.6/car,ResourceAdapterModule=org.apache.geronimo.configs/system-database/2.1.6/car,j2eeType=JCAManagedConnectionFactory,name=SystemDatasource at name org.apache.geronimo.configs/system-database/JCAManagedConnectionFactory/SystemDatasource
+2010-11-27 21:55:17,680 INFO  [KernelContextGBean] bound gbean org.apache.geronimo.configs/system-database/2.1.6/car?J2EEApplication=null,JCAConnectionFactory=NoTxDatasource,JCAResource=org.apache.geronimo.configs/system-database/2.1.6/car,ResourceAdapter=org.apache.geronimo.configs/system-database/2.1.6/car,ResourceAdapterModule=org.apache.geronimo.configs/system-database/2.1.6/car,j2eeType=JCAManagedConnectionFactory,name=NoTxDatasource at name org.apache.geronimo.configs/system-database/JCAManagedConnectionFactory/NoTxDatasource
+2010-11-27 21:55:17,751 INFO  [SystemProperties] Setting Property=openejb.vendor.config to Value=GERONIMO
+2010-11-27 21:55:17,848 INFO  [service] Creating TransactionManager(id=Default Transaction Manager)
+2010-11-27 21:55:17,863 INFO  [service] Creating SecurityService(id=Default Security Service)
+2010-11-27 21:55:17,864 INFO  [service] Creating ProxyFactory(id=Default JDK 1.3 ProxyFactory)
+2010-11-27 21:55:17,889 INFO  [config] Configuring Service(id=Default Stateless Container, type=Container, provider-id=Default Stateless Container)
+2010-11-27 21:55:17,890 INFO  [service] Creating Container(id=Default Stateless Container)
+2010-11-27 21:55:17,916 INFO  [config] Configuring Service(id=Default Stateful Container, type=Container, provider-id=Default Stateful Container)
+2010-11-27 21:55:17,916 INFO  [service] Creating Container(id=Default Stateful Container)
+2010-11-27 21:55:17,927 INFO  [OpenEJB] Using directory /home/user1/geronimo/geronimo-tomcat6-javaee5-2.1.6/var/temp for stateful session passivation
+2010-11-27 21:55:17,928 INFO  [config] Configuring Service(id=Default BMP Container, type=Container, provider-id=Default BMP Container)
+2010-11-27 21:55:17,928 INFO  [service] Creating Container(id=Default BMP Container)
+2010-11-27 21:55:17,935 INFO  [config] Configuring Service(id=Default CMP Container, type=Container, provider-id=Default CMP Container)
+2010-11-27 21:55:17,935 INFO  [service] Creating Container(id=Default CMP Container)
+2010-11-27 21:55:18,016 INFO  [KernelContextGBean] bound gbean org.apache.geronimo.configs/axis/2.1.6/car?ServiceModule=org.apache.geronimo.configs/axis/2.1.6/car,j2eeType=JAXRConnectionFactory,name=eis/JAXR at name org.apache.geronimo.configs/axis/JAXRConnectionFactory/eis/JAXR
+2010-11-27 21:55:18,431 INFO  [SystemProperties] Setting Property=org.apache.jasper.Constants.USE_INSTANCE_MANAGER_FOR_TAGS to Value=true
+2010-11-27 21:55:18,510 INFO  [SystemProperties] Setting Property=org.apache.catalina.STRICT_SERVLET_COMPLIANCE to Value=true
+2010-11-27 21:55:18,669 INFO  [AprLifecycleListener] The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-6-openjdk/jre/lib/amd64/server:/usr/lib/jvm/java-6-openjdk/jre/lib/amd64:/usr/lib/jvm/java-6-openjdk/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib/jni:/lib:/usr/lib
+2010-11-27 21:55:20,599 INFO  [config] Configuring Service(id=org.apache.geronimo.configs/activemq-ra/2.1.6/car.ActiveMQ RA-javax.jms.MessageListener, type=Container, provider-id=Default MDB Container)
+2010-11-27 21:55:20,600 INFO  [service] Creating Container(id=org.apache.geronimo.configs/activemq-ra/2.1.6/car.ActiveMQ RA-javax.jms.MessageListener)
+2010-11-27 21:55:20,739 INFO  [SinglePoolConnectionInterceptor] Removing ManagedConnectionInfo: org.apache.geronimo.connector.outbound.ManagedConnectionInfo@da11151. mc: org.apache.activemq.ra.ActiveMQManagedConnection@4977e3d4] from pool org.apache.geronimo.connector.outbound.SinglePoolConnectionInterceptor@5e0e98fa
+2010-11-27 21:55:20,745 INFO  [KernelContextGBean] bound gbean org.apache.geronimo.configs/activemq-ra/2.1.6/car?J2EEApplication=null,JCAConnectionFactory=DefaultActiveMQConnectionFactory,JCAResource=org.apache.geronimo.configs/activemq-ra/2.1.6/car,ResourceAdapter=org.apache.geronimo.configs/activemq-ra/2.1.6/car,ResourceAdapterModule=org.apache.geronimo.configs/activemq-ra/2.1.6/car,j2eeType=JCAManagedConnectionFactory,name=DefaultActiveMQConnectionFactory at name org.apache.geronimo.configs/activemq-ra/JCAManagedConnectionFactory/DefaultActiveMQConnectionFactory
+2010-11-27 21:55:20,758 INFO  [KernelContextGBean] bound gbean org.apache.geronimo.configs/activemq-ra/2.1.6/car?J2EEApplication=null,JCAResource=org.apache.geronimo.configs/activemq-ra/2.1.6/car,ResourceAdapter=org.apache.geronimo.configs/activemq-ra/2.1.6/car,ResourceAdapterModule=org.apache.geronimo.configs/activemq-ra/2.1.6/car,j2eeType=JCAAdminObject,name=MDBTransferBeanOutQueue at name org.apache.geronimo.configs/activemq-ra/JCAAdminObject/MDBTransferBeanOutQueue
+2010-11-27 21:55:20,759 INFO  [KernelContextGBean] bound gbean org.apache.geronimo.configs/activemq-ra/2.1.6/car?J2EEApplication=null,JCAResource=org.apache.geronimo.configs/activemq-ra/2.1.6/car,ResourceAdapter=org.apache.geronimo.configs/activemq-ra/2.1.6/car,ResourceAdapterModule=org.apache.geronimo.configs/activemq-ra/2.1.6/car,j2eeType=JCAAdminObject,name=SendReceiveQueue at name org.apache.geronimo.configs/activemq-ra/JCAAdminObject/SendReceiveQueue
+2010-11-27 21:55:20,775 INFO  [MailGBean] JavaMail session bound to ger:/MailSession
+2010-11-27 21:55:20,775 INFO  [KernelContextGBean] bound gbean org.apache.geronimo.configs/javamail/2.1.6/car?ServiceModule=org.apache.geronimo.configs/javamail/2.1.6/car,j2eeType=JavaMailResource,name=mail/MailSession at name org.apache.geronimo.configs/javamail/JavaMailResource/mail/MailSession
+2010-11-27 21:55:21,520 INFO  [ContextLoader] Root WebApplicationContext: initialization started
+2010-11-27 21:55:21,538 INFO  [XmlWebApplicationContext] Refreshing org.springframework.web.context.support.XmlWebApplicationContext@385c25dc: display name [Root WebApplicationContext]; startup date [Sat Nov 27 21:55:21 EST 2010]; root of context hierarchy
+2010-11-27 21:55:21,568 INFO  [XmlBeanDefinitionReader] Loading XML bean definitions from ServletContext resource [/WEB-INF/pluto-portal-driver-services-config.xml]
+2010-11-27 21:55:21,605 INFO  [XmlWebApplicationContext] Bean factory for application context [org.springframework.web.context.support.XmlWebApplicationContext@385c25dc]: org.springframework.beans.factory.support.DefaultListableBeanFactory@3e272454
+2010-11-27 21:55:21,641 INFO  [DefaultListableBeanFactory] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3e272454: defining beans [RequiredContainerServices,PortalContext,DriverConfiguration,AdminConfiguration,PortalURLParser,PropertyConfigService,RenderConfigService,SupportedModesService,SupportedWindowStatesService,PortalCallbackService,GeronimoPortalServices]; root of factory hierarchy
+2010-11-27 21:55:21,671 INFO  [ContextLoader] Root WebApplicationContext: initialization completed in 150 ms
+2010-11-27 21:55:21,671 INFO  [PortalStartupListener] Starting up Pluto Portal Driver. . .
+2010-11-27 21:55:21,711 INFO  [PortalStartupListener] Initializing Portlet Container. . .
+2010-11-27 21:55:21,723 INFO  [PortletContainerFactory] Portlet Container [Pluto Portal Driver] created.
+2010-11-27 21:55:21,723 INFO  [PortletContainerImpl] Portlet Container [Pluto Portal Driver]: Container initialized successfully.
+2010-11-27 21:55:21,723 INFO  [PortalStartupListener] Pluto portlet container started.
+2010-11-27 21:55:21,723 INFO  [PortalStartupListener] ********** Pluto Portal Driver Started **********
+
+
+2010-11-27 21:55:22,954 INFO  [KernelContextGBean] bound gbean org.apache.geronimo.configs/uddi-tomcat/2.1.6/car?J2EEApplication=org.apache.geronimo.configs/uddi-tomcat/2.1.6/car,JCAConnectionFactory=jdbc/juddiDB,JCAResource=uddi-db,ResourceAdapter=uddi-db,ResourceAdapterModule=uddi-db,j2eeType=JCAManagedConnectionFactory,name=jdbc/juddiDB at name org.apache.geronimo.configs/uddi-tomcat/JCAManagedConnectionFactory/jdbc/juddiDB
+2010-11-27 21:55:23,162 INFO  [startup] Assembling app: C:\.m2\repository\org\apache\geronimo\plugins\geronimo-mejb\2.1.6\geronimo-mejb-2.1.6.jar
+2010-11-27 21:55:23,217 INFO  [startup] Jndi(name=ejb/mgmt/MEJB) --> Ejb(deployment-id=mejb/ejb/mgmt/MEJB)
+2010-11-27 21:55:23,219 INFO  [startup] Created Ejb(deployment-id=mejb/ejb/mgmt/MEJB, ejb-name=ejb/mgmt/MEJB, container=Default Stateless Container)
+2010-11-27 21:55:23,219 INFO  [startup] Deployed Application(path=C:\.m2\repository\org\apache\geronimo\plugins\geronimo-mejb\2.1.6\geronimo-mejb-2.1.6.jar)
+2010-11-27 21:55:23,289 INFO  [KernelContextGBean] bound gbean org.apache.geronimo.plugins/agent-ds/2.1.6/car?J2EEApplication=null,JCAConnectionFactory=jdbc/ActiveDS,JCAResource=org.apache.geronimo.plugins/agent-ds/2.1.6/car,ResourceAdapter=org.apache.geronimo.plugins/agent-ds/2.1.6/car,ResourceAdapterModule=org.apache.geronimo.plugins/agent-ds/2.1.6/car,j2eeType=JCAManagedConnectionFactory,name=jdbc/ActiveDS at name org.apache.geronimo.plugins/agent-ds/JCAManagedConnectionFactory/jdbc/ActiveDS
+2010-11-27 21:55:26,974 INFO  [KernelContextGBean] bound gbean org.apache.geronimo.plugins/agent-ds/2.1.6/car?J2EEApplication=null,JCAConnectionFactory=jdbc/ArchiveDS,JCAResource=org.apache.geronimo.plugins/agent-ds/2.1.6/car,ResourceAdapter=org.apache.geronimo.plugins/agent-ds/2.1.6/car,ResourceAdapterModule=org.apache.geronimo.plugins/agent-ds/2.1.6/car,j2eeType=JCAManagedConnectionFactory,name=jdbc/ArchiveDS at name org.apache.geronimo.plugins/agent-ds/JCAManagedConnectionFactory/jdbc/ArchiveDS
+2010-11-27 21:55:30,628 INFO  [KernelContextGBean] bound gbean org.apache.geronimo.plugins/mconsole-ds/2.1.6/car?J2EEApplication=null,JCAConnectionFactory=MonitoringClientDS,JCAResource=org.apache.geronimo.plugins/mconsole-ds/2.1.6/car,ResourceAdapter=org.apache.geronimo.plugins/mconsole-ds/2.1.6/car,ResourceAdapterModule=org.apache.geronimo.plugins/mconsole-ds/2.1.6/car,j2eeType=JCAManagedConnectionFactory,name=MonitoringClientDS at name org.apache.geronimo.plugins/mconsole-ds/JCAManagedConnectionFactory/MonitoringClientDS
+2010-11-27 22:25:17,172 INFO  [SinglePoolConnectionInterceptor] Removing ManagedConnectionInfo: org.apache.geronimo.connector.outbound.ManagedConnectionInfo@c302723. mc: org.tranql.connector.jdbc.ManagedXAConnection@2d597115] from pool org.apache.geronimo.connector.outbound.SinglePoolConnectionInterceptor@70e69696
+2010-11-27 22:25:23,288 INFO  [SinglePoolConnectionInterceptor] Removing ManagedConnectionInfo: org.apache.geronimo.connector.outbound.ManagedConnectionInfo@61121eb9. mc: org.tranql.connector.jdbc.ManagedPooledConnection@6c9f3578] from pool org.apache.geronimo.connector.outbound.SinglePoolConnectionInterceptor@486f90fe
+2010-11-27 22:25:26,973 INFO  [SinglePoolConnectionInterceptor] Removing ManagedConnectionInfo: org.apache.geronimo.connector.outbound.ManagedConnectionInfo@5671db31. mc: org.tranql.connector.jdbc.ManagedPooledConnection@4ced9a4d] from pool org.apache.geronimo.connector.outbound.SinglePoolConnectionInterceptor@32d5cb0
+2010-11-27 22:25:30,627 INFO  [SinglePoolConnectionInterceptor] Removing ManagedConnectionInfo: org.apache.geronimo.connector.outbound.ManagedConnectionInfo@126b227. mc: org.tranql.connector.jdbc.ManagedPooledConnection@9306155] from pool org.apache.geronimo.connector.outbound.SinglePoolConnectionInterceptor@47461829
+2010-11-28 00:09:38,344 INFO  [KernelContextGBean] unbound gbean org.apache.geronimo.plugins/agent-ds/2.1.6/car?J2EEApplication=null,JCAConnectionFactory=jdbc/ActiveDS,JCAResource=org.apache.geronimo.plugins/agent-ds/2.1.6/car,ResourceAdapter=org.apache.geronimo.plugins/agent-ds/2.1.6/car,ResourceAdapterModule=org.apache.geronimo.plugins/agent-ds/2.1.6/car,j2eeType=JCAManagedConnectionFactory,name=jdbc/ActiveDS at name org.apache.geronimo.plugins/agent-ds/JCAManagedConnectionFactory/jdbc/ActiveDS
+2010-11-28 00:09:38,345 INFO  [KernelContextGBean] unbound gbean org.apache.geronimo.plugins/agent-ds/2.1.6/car?J2EEApplication=null,JCAConnectionFactory=jdbc/ArchiveDS,JCAResource=org.apache.geronimo.plugins/agent-ds/2.1.6/car,ResourceAdapter=org.apache.geronimo.plugins/agent-ds/2.1.6/car,ResourceAdapterModule=org.apache.geronimo.plugins/agent-ds/2.1.6/car,j2eeType=JCAManagedConnectionFactory,name=jdbc/ArchiveDS at name org.apache.geronimo.plugins/agent-ds/JCAManagedConnectionFactory/jdbc/ArchiveDS
+2010-11-28 00:09:38,348 INFO  [KernelContextGBean] unbound gbean org.apache.geronimo.plugins/mconsole-ds/2.1.6/car?J2EEApplication=null,JCAConnectionFactory=MonitoringClientDS,JCAResource=org.apache.geronimo.plugins/mconsole-ds/2.1.6/car,ResourceAdapter=org.apache.geronimo.plugins/mconsole-ds/2.1.6/car,ResourceAdapterModule=org.apache.geronimo.plugins/mconsole-ds/2.1.6/car,j2eeType=JCAManagedConnectionFactory,name=MonitoringClientDS at name org.apache.geronimo.plugins/mconsole-ds/JCAManagedConnectionFactory/MonitoringClientDS
+2010-11-28 00:09:38,360 INFO  [PortalStartupListener] Shutting down Pluto Portal Driver...
+2010-11-28 00:09:38,360 INFO  [PortalStartupListener] Shutting down Pluto Portal Driver...
+2010-11-28 00:09:38,360 INFO  [PortletContainerImpl] Portlet Container [Pluto Portal Driver]: Container destroyed.
+2010-11-28 00:09:38,360 INFO  [PortalStartupListener] Pluto Portal Driver shut down.
+2010-11-28 00:09:38,360 INFO  [PortalStartupListener] Pluto Portal Admin Config destroyed.
+2010-11-28 00:09:38,360 INFO  [PortalStartupListener] Pluto Portal Driver Config destroyed.
+2010-11-28 00:09:38,360 INFO  [PortalStartupListener] ********** Pluto Portal Driver Shut Down **********
+
+
+2010-11-28 00:09:38,361 INFO  [XmlWebApplicationContext] Closing org.springframework.web.context.support.XmlWebApplicationContext@385c25dc: display name [Root WebApplicationContext]; startup date [Sat Nov 27 21:55:21 EST 2010]; root of context hierarchy
+2010-11-28 00:09:38,361 INFO  [DefaultListableBeanFactory] Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3e272454: defining beans [RequiredContainerServices,PortalContext,DriverConfiguration,AdminConfiguration,PortalURLParser,PropertyConfigService,RenderConfigService,SupportedModesService,SupportedWindowStatesService,PortalCallbackService,GeronimoPortalServices]; root of factory hierarchy
+2010-11-28 00:09:38,374 INFO  [KernelContextGBean] unbound gbean org.apache.geronimo.configs/uddi-tomcat/2.1.6/car?J2EEApplication=org.apache.geronimo.configs/uddi-tomcat/2.1.6/car,JCAConnectionFactory=jdbc/juddiDB,JCAResource=uddi-db,ResourceAdapter=uddi-db,ResourceAdapterModule=uddi-db,j2eeType=JCAManagedConnectionFactory,name=jdbc/juddiDB at name org.apache.geronimo.configs/uddi-tomcat/JCAManagedConnectionFactory/jdbc/juddiDB
+2010-11-28 00:09:38,385 INFO  [KernelContextGBean] unbound gbean org.apache.geronimo.configs/activemq-ra/2.1.6/car?J2EEApplication=null,JCAConnectionFactory=DefaultActiveMQConnectionFactory,JCAResource=org.apache.geronimo.configs/activemq-ra/2.1.6/car,ResourceAdapter=org.apache.geronimo.configs/activemq-ra/2.1.6/car,ResourceAdapterModule=org.apache.geronimo.configs/activemq-ra/2.1.6/car,j2eeType=JCAManagedConnectionFactory,name=DefaultActiveMQConnectionFactory at name org.apache.geronimo.configs/activemq-ra/JCAManagedConnectionFactory/DefaultActiveMQConnectionFactory
+2010-11-28 00:09:38,385 INFO  [KernelContextGBean] unbound gbean org.apache.geronimo.configs/activemq-ra/2.1.6/car?J2EEApplication=null,JCAResource=org.apache.geronimo.configs/activemq-ra/2.1.6/car,ResourceAdapter=org.apache.geronimo.configs/activemq-ra/2.1.6/car,ResourceAdapterModule=org.apache.geronimo.configs/activemq-ra/2.1.6/car,j2eeType=JCAAdminObject,name=MDBTransferBeanOutQueue at name org.apache.geronimo.configs/activemq-ra/JCAAdminObject/MDBTransferBeanOutQueue
+2010-11-28 00:09:38,385 INFO  [KernelContextGBean] unbound gbean org.apache.geronimo.configs/activemq-ra/2.1.6/car?J2EEApplication=null,JCAResource=org.apache.geronimo.configs/activemq-ra/2.1.6/car,ResourceAdapter=org.apache.geronimo.configs/activemq-ra/2.1.6/car,ResourceAdapterModule=org.apache.geronimo.configs/activemq-ra/2.1.6/car,j2eeType=JCAAdminObject,name=SendReceiveQueue at name org.apache.geronimo.configs/activemq-ra/JCAAdminObject/SendReceiveQueue
+2010-11-28 00:09:50,839 INFO  [startup] Undeploying app: C:\.m2\repository\org\apache\geronimo\plugins\geronimo-mejb\2.1.6\geronimo-mejb-2.1.6.jar
+2010-11-28 00:09:50,861 INFO  [remote] Received stop signal
+2010-11-28 00:09:50,862 INFO  [KernelContextGBean] unbound gbean org.apache.geronimo.configs/axis/2.1.6/car?ServiceModule=org.apache.geronimo.configs/axis/2.1.6/car,j2eeType=JAXRConnectionFactory,name=eis/JAXR at name org.apache.geronimo.configs/axis/JAXRConnectionFactory/eis/JAXR
+2010-11-28 00:09:50,864 INFO  [KernelContextGBean] unbound gbean org.apache.geronimo.configs/system-database/2.1.6/car?J2EEApplication=null,JCAConnectionFactory=NoTxDatasource,JCAResource=org.apache.geronimo.configs/system-database/2.1.6/car,ResourceAdapter=org.apache.geronimo.configs/system-database/2.1.6/car,ResourceAdapterModule=org.apache.geronimo.configs/system-database/2.1.6/car,j2eeType=JCAManagedConnectionFactory,name=NoTxDatasource at name org.apache.geronimo.configs/system-database/JCAManagedConnectionFactory/NoTxDatasource
+2010-11-28 00:09:52,375 INFO  [KernelContextGBean] unbound gbean org.apache.geronimo.configs/system-database/2.1.6/car?J2EEApplication=null,JCAConnectionFactory=SystemDatasource,JCAResource=org.apache.geronimo.configs/system-database/2.1.6/car,ResourceAdapter=org.apache.geronimo.configs/system-database/2.1.6/car,ResourceAdapterModule=org.apache.geronimo.configs/system-database/2.1.6/car,j2eeType=JCAManagedConnectionFactory,name=SystemDatasource at name org.apache.geronimo.configs/system-database/JCAManagedConnectionFactory/SystemDatasource
+2010-11-28 00:09:52,377 INFO  [KernelContextGBean] unbound gbean org.apache.geronimo.configs/transaction/2.1.6/car?ServiceModule=org.apache.geronimo.configs/transaction/2.1.6/car,j2eeType=Context,name=ResourceBindings at name jca:
+2010-11-28 00:09:52,378 INFO  [KernelContextGBean] unbound gbean org.apache.geronimo.configs/javamail/2.1.6/car?ServiceModule=org.apache.geronimo.configs/javamail/2.1.6/car,j2eeType=JavaMailResource,name=mail/MailSession at name org.apache.geronimo.configs/javamail/JavaMailResource/mail/MailSession
+2010-11-28 00:09:52,422 INFO  [MailGBean] JavaMail session unbound from ger:/MailSession
+2010-11-28 00:09:52,424 INFO  [KernelContextGBean] unbound gbean org.apache.geronimo.framework/rmi-naming/2.1.6/car?ServiceModule=org.apache.geronimo.framework/rmi-naming/2.1.6/car,j2eeType=Context,name=JavaContext at name java:
+2010-11-28 00:09:52,443 INFO  [KernelContextGBean] unbound gbean org.apache.geronimo.framework/rmi-naming/2.1.6/car?ServiceModule=org.apache.geronimo.framework/rmi-naming/2.1.6/car,j2eeType=Context,name=GeronimoContext at name ger:
+2010-11-28 00:09:52,443 INFO  [KernelContextGBean] unbound gbean org.apache.geronimo.framework/rmi-naming/2.1.6/car?ServiceModule=org.apache.geronimo.framework/rmi-naming/2.1.6/car,j2eeType=Context,name=JavaCompContext at name java:comp
+2010-11-28 00:09:52,444 INFO  [Log4jService] Stopping Logging Service
+2010-11-28 00:09:52,444 INFO  [Log4jService] ----------------------------------------------

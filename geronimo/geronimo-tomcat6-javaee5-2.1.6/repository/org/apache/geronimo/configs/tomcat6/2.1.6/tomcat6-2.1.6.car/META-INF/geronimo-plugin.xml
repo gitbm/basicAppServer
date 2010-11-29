@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<geronimo-plugin xmlns="http://geronimo.apache.org/xml/ns/plugins-1.3" xmlns:ns2="http://geronimo.apache.org/xml/ns/attributes-1.2">
+    <name>Geronimo Plugins, Tomcat :: Tomcat</name>
+    <category>Tomcat</category>
+    <description>Geronimo Tomcat web server integration.</description>
+    <url>http://geronimo.apache.org/</url>
+    <author>The Apache Geronimo development community</author>
+    <license osi-approved="true">The Apache Software License, Version 2.0</license>
+    <plugin-artifact>
+        <module-id>
+            <groupId>org.apache.geronimo.configs</groupId>
+            <artifactId>tomcat6</artifactId>
+            <version>2.1.6</version>
+            <type>car</type>
+        </module-id>
+        <geronimo-version>2.1.6</geronimo-version>
+        <jvm-version>1.5</jvm-version>
+        <jvm-version>1.6</jvm-version>
+        <dependency>
+            <groupId>org.apache.geronimo.configs</groupId>
+            <artifactId>j2ee-server</artifactId>
+            <version>2.1.6</version>
+            <type>car</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.framework</groupId>
+            <artifactId>server-security-config</artifactId>
+            <version>2.1.6</version>
+            <type>car</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.configs</groupId>
+            <artifactId>transaction</artifactId>
+            <version>2.1.6</version>
+            <type>car</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.modules</groupId>
+            <artifactId>geronimo-tomcat6</artifactId>
+            <version>2.1.6</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.configs</groupId>
+            <artifactId>jasper</artifactId>
+            <version>2.1.6</version>
+            <type>car</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.configs</groupId>
+            <artifactId>webservices-common</artifactId>
+            <version>2.1.6</version>
+            <type>car</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.ext.tomcat</groupId>
+            <artifactId>catalina</artifactId>
+            <version>6.0.26.0</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.ext.tomcat</groupId>
+            <artifactId>catalina-ha</artifactId>
+            <version>6.0.26.0</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.ext.tomcat</groupId>
+            <artifactId>util</artifactId>
+            <version>6.0.26.0</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.ext.tomcat</groupId>
+            <artifactId>tribes</artifactId>
+            <version>6.0.26.0</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.tomcat.extras</groupId>
+            <artifactId>juli</artifactId>
+            <version>6.0.26</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.tomcat.extras</groupId>
+            <artifactId>juli-adapters</artifactId>
+            <version>6.0.26</version>
+            <type>jar</type>
+        </dependency>
+        <source-repository>~/.m2/repository/</source-repository>
+        <source-repository>http://repo1.maven.org/maven2/</source-repository>
+        <source-repository>http://repository.apache.org/snapshots/</source-repository>
+        <source-repository>http://people.apache.org/repo/m2-incubating-repository/</source-repository>
+        <copy-file relative-to="server" dest-dir="var/catalina">tomcat-base/</copy-file>
+        <config-xml-content>
+            <ns2:gbean name="TomcatWebConnector">
+                <ns2:attribute name="host">${ServerHostname}</ns2:attribute>
+                <ns2:attribute name="port">${HTTPPort + PortOffset}</ns2:attribute>
+                <ns2:attribute name="redirectPort">${HTTPSPort + PortOffset}</ns2:attribute>
+                <ns2:attribute name="maxHttpHeaderSize">8192</ns2:attribute>
+                <ns2:attribute name="maxThreads">150</ns2:attribute>
+                <ns2:attribute name="minSpareThreads">25</ns2:attribute>
+                <ns2:attribute name="maxSpareThreads">75</ns2:attribute>
+                <ns2:attribute name="enableLookups">false</ns2:attribute>
+                <ns2:attribute name="acceptCount">100</ns2:attribute>
+                <ns2:attribute name="connectionTimeout">${WebConnectorConTimeout}</ns2:attribute>
+                <ns2:attribute name="disableUploadTimeout">true</ns2:attribute>
+            </ns2:gbean>
+            <ns2:gbean name="TomcatAJPConnector">
+                <ns2:attribute name="host">${ServerHostname}</ns2:attribute>
+                <ns2:attribute name="port">${AJPPort + PortOffset}</ns2:attribute>
+                <ns2:attribute name="redirectPort">${HTTPSPort + PortOffset}</ns2:attribute>
+                <ns2:attribute name="minSpareThreads">25</ns2:attribute>
+                <ns2:attribute name="maxSpareThreads">75</ns2:attribute>
+                <ns2:attribute name="enableLookups">false</ns2:attribute>
+            </ns2:gbean>
+            <ns2:gbean name="TomcatWebSSLConnector">
+                <ns2:attribute name="host">${ServerHostname}</ns2:attribute>
+                <ns2:attribute name="port">${HTTPSPort + PortOffset}</ns2:attribute>
+                <ns2:attribute name="maxHttpHeaderSize">8192</ns2:attribute>
+                <ns2:attribute name="maxThreads">150</ns2:attribute>
+                <ns2:attribute name="minSpareThreads">25</ns2:attribute>
+                <ns2:attribute name="maxSpareThreads">75</ns2:attribute>
+                <ns2:attribute name="enableLookups">false</ns2:attribute>
+                <ns2:attribute name="acceptCount">100</ns2:attribute>
+                <ns2:attribute name="disableUploadTimeout">false</ns2:attribute>
+                <ns2:attribute name="clientAuth">false</ns2:attribute>
+                <ns2:attribute name="algorithm">Default</ns2:attribute>
+                <ns2:attribute name="sslProtocol">TLS</ns2:attribute>
+                <ns2:attribute name="keystoreFile">var/security/keystores/geronimo-default</ns2:attribute>
+                <ns2:attribute name="keystorePass">secret</ns2:attribute>
+                <ns2:attribute name="keystoreType">JKS</ns2:attribute>
+            </ns2:gbean>
+            <ns2:gbean name="TomcatHost">
+                <ns2:attribute name="initParams">name=${ServerHostname}
+                                        appBase=
+                                        workDir=work</ns2:attribute>
+            </ns2:gbean>
+        </config-xml-content>
+        <artifact-alias key="org.apache.geronimo.configs/tomcat6//car">org.apache.geronimo.configs/tomcat6/2.1.6/car</artifact-alias>
+        <artifact-alias key="org.apache.geronimo.configs/tomcat6/2.1.4/car">org.apache.geronimo.configs/tomcat6/2.1.6/car</artifact-alias>
+        <artifact-alias key="org.apache.geronimo.configs/tomcat6/2.1.3/car">org.apache.geronimo.configs/tomcat6/2.1.6/car</artifact-alias>
+        <artifact-alias key="org.apache.geronimo.configs/tomcat6/2.1.2/car">org.apache.geronimo.configs/tomcat6/2.1.6/car</artifact-alias>
+        <artifact-alias key="org.apache.geronimo.configs/tomcat6/2.1.1/car">org.apache.geronimo.configs/tomcat6/2.1.6/car</artifact-alias>
+        <artifact-alias key="org.apache.geronimo.configs/tomcat6/2.1/car">org.apache.geronimo.configs/tomcat6/2.1.6/car</artifact-alias>
+        <config-substitution key="HTTPPort">8080</config-substitution>
+        <config-substitution key="AJPPort">8009</config-substitution>
+        <config-substitution key="HTTPSPort">8443</config-substitution>
+        <config-substitution key="ServerHostname">0.0.0.0</config-substitution>
+        <config-substitution key="WebConnectorConTimeout">20000</config-substitution>
+        <config-substitution key="webcontainer">TomcatWebContainer</config-substitution>
+        <config-substitution key="webcontainerName">tomcat6</config-substitution>
+    </plugin-artifact>
+</geronimo-plugin>

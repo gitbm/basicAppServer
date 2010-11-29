@@ -1,0 +1,9 @@
+id=org.apache.geronimo.plugins/console-tomcat/2.1.6/car
+type=EAR
+created=1277239380070
+child.0.id=org.apache.geronimo.plugins/console-tomcat_portal-driver.war/2.1.6/car
+child.0.type=WAR
+child.0.created=1277239379836
+child.1.id=org.apache.geronimo.plugins/console-tomcat_base-portlets.war/2.1.6/car
+child.1.type=WAR
+child.1.created=1277239380070

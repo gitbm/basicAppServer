@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: Rick McGuire
+Build-Jdk: 1.5.0_22
+Main-Class: org.apache.geronimo.kernel.util.MainBootstrapper
+Endorsed-Dirs: lib/endorsed
+Extension-Dirs: lib/ext
+Class-Path: ../lib/geronimo-crypto-2.1.6.jar ../lib/geronimo-kernel-2.
+ 1.6.jar ../lib/commons-logging-1.0.4.jar ../lib/cglib-nodep-2.1_3.jar
+  ../lib/log4j-1.2.14.jar
+

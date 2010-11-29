@@ -1,0 +1,6 @@
+id=org.apache.geronimo.configs/uddi-tomcat/2.1.6/car
+type=EAR
+created=1277240877805
+child.0.id=org.apache.geronimo.configs/uddi-tomcat_uddi-tomcat/2.1.6/car
+child.0.type=WAR
+child.0.created=1277240877805

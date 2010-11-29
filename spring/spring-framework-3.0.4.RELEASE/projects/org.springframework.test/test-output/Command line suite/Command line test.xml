@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Command line test" failures="0" tests="1" time="0.0060" errors="0">
+  <properties/>
+  <testcase name="@AfterMethod springTestContextAfterTestMethod" time="0.0" classname="org.springframework.test.context.testng.FailingBeforeAndAfterMethodsTests$FailingAfterTransactionTestCase">
+    <failure type="java.lang.AssertionError" message="always failing afterTransaction()">
+      <![CDATA[java.lang.AssertionError: always failing afterTransaction()
+	at org.springframework.test.context.testng.FailingBeforeAndAfterMethodsTests$FailingAfterTransactionTestCase.afterTransaction(FailingBeforeAndAfterMethodsTests.java:246)
+	at org.springframework.test.context.transaction.TransactionalTestExecutionListener.runAfterTransactionMethods(TransactionalTestExecutionListener.java:236)
+	at org.springframework.test.context.transaction.TransactionalTestExecutionListener.afterTestMethod(TransactionalTestExecutionListener.java:186)
+	at org.springframework.test.context.TestContextManager.afterTestMethod(TestContextManager.java:426)
+	at org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextAfterTestMethod(AbstractTestNGSpringContextTests.java:179)
+	at org.springframework.test.context.testng.FailingBeforeAndAfterMethodsTests.runTestAndAssertCounters(FailingBeforeAndAfterMethodsTests.java:105)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:76)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:24)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:39)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:420)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:911)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:743)
+... Removed 31 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="testNothing" time="0.0" classname="org.springframework.test.context.testng.FailingBeforeAndAfterMethodsTests$FailingAfterTransactionTestCase"/>
+</testsuite>

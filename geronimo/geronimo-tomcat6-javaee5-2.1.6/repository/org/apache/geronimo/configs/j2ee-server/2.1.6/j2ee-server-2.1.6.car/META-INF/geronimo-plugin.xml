@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<geronimo-plugin xmlns="http://geronimo.apache.org/xml/ns/plugins-1.3" xmlns:ns2="http://geronimo.apache.org/xml/ns/attributes-1.2">
+    <name>Geronimo Plugins, J2EE :: Server</name>
+    <category>JavaEE</category>
+    <description>Basic geronimo JavaEE support components including the transaction manager and connector framework.</description>
+    <url>http://geronimo.apache.org/</url>
+    <author>The Apache Geronimo development community</author>
+    <license osi-approved="true">The Apache Software License, Version 2.0</license>
+    <plugin-artifact>
+        <module-id>
+            <groupId>org.apache.geronimo.configs</groupId>
+            <artifactId>j2ee-server</artifactId>
+            <version>2.1.6</version>
+            <type>car</type>
+        </module-id>
+        <geronimo-version>2.1.6</geronimo-version>
+        <jvm-version>1.5</jvm-version>
+        <jvm-version>1.6</jvm-version>
+        <dependency>
+            <groupId>org.apache.geronimo.framework</groupId>
+            <artifactId>rmi-naming</artifactId>
+            <version>2.1.6</version>
+            <type>car</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.framework</groupId>
+            <artifactId>geronimo-core</artifactId>
+            <version>2.1.6</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.framework</groupId>
+            <artifactId>geronimo-common</artifactId>
+            <version>2.1.6</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.framework</groupId>
+            <artifactId>geronimo-management</artifactId>
+            <version>2.1.6</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.framework</groupId>
+            <artifactId>geronimo-j2ee</artifactId>
+            <version>2.1.6</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.modules</groupId>
+            <artifactId>geronimo-webservices</artifactId>
+            <version>2.1.6</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.xbean</groupId>
+            <artifactId>xbean-reflect</artifactId>
+            <version>3.6</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>asm</groupId>
+            <artifactId>asm</artifactId>
+            <version>3.1</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>asm</groupId>
+            <artifactId>asm-commons</artifactId>
+            <version>3.1</version>
+            <type>jar</type>
+        </dependency>
+        <source-repository>~/.m2/repository/</source-repository>
+        <source-repository>http://repo1.maven.org/maven2/</source-repository>
+        <source-repository>http://repository.apache.org/snapshots/</source-repository>
+        <source-repository>http://people.apache.org/repo/m2-incubating-repository/</source-repository>
+        <artifact-alias key="org.apache.geronimo.configs/j2ee-server//car">org.apache.geronimo.configs/j2ee-server/2.1.6/car</artifact-alias>
+        <artifact-alias key="org.apache.geronimo.configs/j2ee-server/2.1.4/car">org.apache.geronimo.configs/j2ee-server/2.1.6/car</artifact-alias>
+        <artifact-alias key="org.apache.geronimo.configs/j2ee-server/2.1.3/car">org.apache.geronimo.configs/j2ee-server/2.1.6/car</artifact-alias>
+        <artifact-alias key="org.apache.geronimo.configs/j2ee-server/2.1.2/car">org.apache.geronimo.configs/j2ee-server/2.1.6/car</artifact-alias>
+        <artifact-alias key="org.apache.geronimo.configs/j2ee-server/2.1.1/car">org.apache.geronimo.configs/j2ee-server/2.1.6/car</artifact-alias>
+        <artifact-alias key="org.apache.geronimo.configs/j2ee-server/2.1/car">org.apache.geronimo.configs/j2ee-server/2.1.6/car</artifact-alias>
+    </plugin-artifact>
+</geronimo-plugin>

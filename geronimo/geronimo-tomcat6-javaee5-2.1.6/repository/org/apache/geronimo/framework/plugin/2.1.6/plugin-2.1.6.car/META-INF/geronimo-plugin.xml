@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<geronimo-plugin xmlns="http://geronimo.apache.org/xml/ns/plugins-1.3" xmlns:ns2="http://geronimo.apache.org/xml/ns/attributes-1.2">
+    <name>Geronimo Framework, Configs :: Plugin Management</name>
+    <category>Geronimo Core</category>
+    <description>Plugin management services including the installer.</description>
+    <url>http://geronimo.apache.org/</url>
+    <author>The Apache Geronimo development community</author>
+    <license osi-approved="true">The Apache Software License, Version 2.0</license>
+    <plugin-artifact>
+        <module-id>
+            <groupId>org.apache.geronimo.framework</groupId>
+            <artifactId>plugin</artifactId>
+            <version>2.1.6</version>
+            <type>car</type>
+        </module-id>
+        <geronimo-version>2.1.6</geronimo-version>
+        <jvm-version>1.5</jvm-version>
+        <jvm-version>1.6</jvm-version>
+        <dependency>
+            <groupId>org.apache.geronimo.framework</groupId>
+            <artifactId>rmi-naming</artifactId>
+            <version>2.1.6</version>
+            <type>car</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.framework</groupId>
+            <artifactId>geronimo-plugin</artifactId>
+            <version>2.1.6</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.framework</groupId>
+            <artifactId>geronimo-deploy-jsr88</artifactId>
+            <version>2.1.6</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.framework</groupId>
+            <artifactId>geronimo-deploy-config</artifactId>
+            <version>2.1.6</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.specs</groupId>
+            <artifactId>geronimo-javaee-deployment_1.1MR3_spec</artifactId>
+            <version>1.0</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.framework</groupId>
+            <artifactId>xmlbeans</artifactId>
+            <version>2.1.6</version>
+            <type>car</type>
+        </dependency>
+        <dependency>
+            <groupId>org.codehaus.plexus</groupId>
+            <artifactId>plexus-archiver</artifactId>
+            <version>1.0-alpha-7</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.codehaus.plexus</groupId>
+            <artifactId>plexus-utils</artifactId>
+            <version>1.4.5</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.codehaus.plexus</groupId>
+            <artifactId>plexus-container-default</artifactId>
+            <version>1.0-alpha-32</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.codehaus.plexus</groupId>
+            <artifactId>plexus-component-api</artifactId>
+            <version>1.0-alpha-32</version>
+            <type>jar</type>
+        </dependency>
+        <source-repository>~/.m2/repository/</source-repository>
+        <source-repository>http://repo1.maven.org/maven2/</source-repository>
+        <source-repository>http://repository.apache.org/snapshots/</source-repository>
+        <config-xml-content>
+            <ns2:gbean name="DownloadedPluginRepos">
+                <ns2:attribute name="repositoryList">http://geronimo.apache.org/plugins/plugin-repository-list-2.1.6.txt</ns2:attribute>
+                <ns2:attribute name="userRepositories">http://geronimo.apache.org/plugins/geronimo-2.1.6</ns2:attribute>
+            </ns2:gbean>
+        </config-xml-content>
+        <artifact-alias key="org.apache.geronimo.framework/plugin//car">org.apache.geronimo.framework/plugin/2.1.6/car</artifact-alias>
+        <artifact-alias key="org.apache.geronimo.framework/plugin/2.1.4/car">org.apache.geronimo.framework/plugin/2.1.6/car</artifact-alias>
+        <artifact-alias key="org.apache.geronimo.framework/plugin/2.1.3/car">org.apache.geronimo.framework/plugin/2.1.6/car</artifact-alias>
+        <artifact-alias key="org.apache.geronimo.framework/plugin/2.1.2/car">org.apache.geronimo.framework/plugin/2.1.6/car</artifact-alias>
+        <artifact-alias key="org.apache.geronimo.framework/plugin/2.1.1/car">org.apache.geronimo.framework/plugin/2.1.6/car</artifact-alias>
+        <artifact-alias key="org.apache.geronimo.framework/plugin/2.1/car">org.apache.geronimo.framework/plugin/2.1.6/car</artifact-alias>
+    </plugin-artifact>
+</geronimo-plugin>

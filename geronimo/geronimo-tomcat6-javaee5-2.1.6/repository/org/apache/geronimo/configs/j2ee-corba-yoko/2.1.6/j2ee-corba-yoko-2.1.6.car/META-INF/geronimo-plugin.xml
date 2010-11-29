@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<geronimo-plugin xmlns="http://geronimo.apache.org/xml/ns/plugins-1.3" xmlns:ns2="http://geronimo.apache.org/xml/ns/attributes-1.2">
+    <name>Geronimo Plugins, Corba :: Yoko ORB</name>
+    <category>EJB</category>
+    <description>Yoko Orb server setup with naming service, protected orb, and unprotected orb.</description>
+    <url>http://geronimo.apache.org/</url>
+    <author>The Apache Geronimo development community</author>
+    <license osi-approved="true">The Apache Software License, Version 2.0</license>
+    <plugin-artifact>
+        <module-id>
+            <groupId>org.apache.geronimo.configs</groupId>
+            <artifactId>j2ee-corba-yoko</artifactId>
+            <version>2.1.6</version>
+            <type>car</type>
+        </module-id>
+        <geronimo-version>2.1.6</geronimo-version>
+        <jvm-version>1.5</jvm-version>
+        <jvm-version>1.6</jvm-version>
+        <dependency>
+            <groupId>org.apache.geronimo.configs</groupId>
+            <artifactId>openejb</artifactId>
+            <version>2.1.6</version>
+            <type>car</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.modules</groupId>
+            <artifactId>geronimo-corba</artifactId>
+            <version>2.1.6</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.modules</groupId>
+            <artifactId>geronimo-yoko</artifactId>
+            <version>2.1.6</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.yoko</groupId>
+            <artifactId>yoko-core</artifactId>
+            <version>1.0</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.yoko</groupId>
+            <artifactId>yoko-spec-corba</artifactId>
+            <version>1.0</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.yoko</groupId>
+            <artifactId>yoko-rmi-impl</artifactId>
+            <version>1.0</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.bcel</groupId>
+            <artifactId>bcel</artifactId>
+            <version>5.2</version>
+            <type>jar</type>
+        </dependency>
+        <source-repository>~/.m2/repository/</source-repository>
+        <source-repository>http://repo1.maven.org/maven2/</source-repository>
+        <source-repository>http://repository.apache.org/snapshots/</source-repository>
+        <source-repository>http://people.apache.org/repo/m2-incubating-repository/</source-repository>
+        <config-xml-content>
+            <ns2:gbean name="NameServer">
+                <ns2:attribute name="port">${COSNamingPort + PortOffset}</ns2:attribute>
+                <ns2:attribute name="host">${ServerHostname}</ns2:attribute>
+            </ns2:gbean>
+            <ns2:gbean name="Server">
+                <ns2:attribute name="port">${ORBSSLPort + PortOffset}</ns2:attribute>
+                <ns2:attribute name="host">${ServerHostname}</ns2:attribute>
+            </ns2:gbean>
+            <ns2:gbean name="UnprotectedServer">
+                <ns2:attribute name="port">${ORBPort + PortOffset}</ns2:attribute>
+                <ns2:attribute name="host">${ServerHostname}</ns2:attribute>
+            </ns2:gbean>
+        </config-xml-content>
+        <artifact-alias key="org.apache.geronimo.configs/j2ee-corba-yoko//car">org.apache.geronimo.configs/j2ee-corba-yoko/2.1.6/car</artifact-alias>
+        <artifact-alias key="org.apache.geronimo.configs/j2ee-corba-yoko/2.1.4/car">org.apache.geronimo.configs/j2ee-corba-yoko/2.1.6/car</artifact-alias>
+        <artifact-alias key="org.apache.geronimo.configs/j2ee-corba-yoko/2.1.3/car">org.apache.geronimo.configs/j2ee-corba-yoko/2.1.6/car</artifact-alias>
+        <artifact-alias key="org.apache.geronimo.configs/j2ee-corba-yoko/2.1.2/car">org.apache.geronimo.configs/j2ee-corba-yoko/2.1.6/car</artifact-alias>
+        <artifact-alias key="org.apache.geronimo.configs/j2ee-corba-yoko/2.1.1/car">org.apache.geronimo.configs/j2ee-corba-yoko/2.1.6/car</artifact-alias>
+        <artifact-alias key="org.apache.geronimo.configs/j2ee-corba-yoko/2.1/car">org.apache.geronimo.configs/j2ee-corba-yoko/2.1.6/car</artifact-alias>
+        <config-substitution key="COSNamingPort">1050</config-substitution>
+        <config-substitution key="ORBSSLPort">2001</config-substitution>
+        <config-substitution key="ORBPort">6882</config-substitution>
+    </plugin-artifact>
+</geronimo-plugin>

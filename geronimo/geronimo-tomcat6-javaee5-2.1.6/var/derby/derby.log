@@ -1,0 +1,42 @@
+2010-11-27 10:55:17.164 GMT : Apache Derby Network Server - 10.5.3.0 - (802917) started and ready to accept connections on port 1527
+----------------------------------------------------------------
+2010-11-27 10:55:17.280 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance a816c00e-012c-8cf8-fe77-ffffd415fd91
+on database directory /home/user1/geronimo/geronimo-tomcat6-javaee5-2.1.6/var/derby/SystemDatabase  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2010-11-27 10:55:23.349 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance a228c043-012c-8cf8-fe77-ffffd415fd91
+on database directory /home/user1/geronimo/geronimo-tomcat6-javaee5-2.1.6/var/derby/ActiveMRCDB  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2010-11-27 10:55:27.031 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance 374fc0db-012c-8cf8-fe77-ffffd415fd91
+on database directory /home/user1/geronimo/geronimo-tomcat6-javaee5-2.1.6/var/derby/ArchiveMRCDB  
+
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+2010-11-27 10:55:30.787 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.3.0 - (802917): instance e306c173-012c-8cf8-fe77-ffffd415fd91
+on database directory /home/user1/geronimo/geronimo-tomcat6-javaee5-2.1.6/var/derby/MonitoringClientDB  
+
+Database Class Loader started - derby.database.classpath=''
+2010-11-27 13:09:50.881 GMT : Apache Derby Network Server - 10.5.3.0 - (802917) shutdown
+
+2010-11-27 13:09:51.300 GMT:
+Shutting down instance e306c173-012c-8cf8-fe77-ffffd415fd91
+----------------------------------------------------------------
+
+2010-11-27 13:09:51.616 GMT:
+Shutting down instance 374fc0db-012c-8cf8-fe77-ffffd415fd91
+----------------------------------------------------------------
+
+2010-11-27 13:09:51.908 GMT:
+Shutting down instance a228c043-012c-8cf8-fe77-ffffd415fd91
+----------------------------------------------------------------
+
+2010-11-27 13:09:52.176 GMT:
+Shutting down instance a816c00e-012c-8cf8-fe77-ffffd415fd91
+----------------------------------------------------------------

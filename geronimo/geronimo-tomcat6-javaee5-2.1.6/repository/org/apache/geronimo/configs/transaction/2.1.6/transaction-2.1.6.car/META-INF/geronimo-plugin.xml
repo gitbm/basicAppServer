@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<geronimo-plugin xmlns="http://geronimo.apache.org/xml/ns/plugins-1.3" xmlns:ns2="http://geronimo.apache.org/xml/ns/attributes-1.2">
+    <name>Geronimo Plugins, Connector :: Transaction Manager (JTA11)</name>
+    <category>Geronimo Core</category>
+    <description>Geronimo transaction manager module.</description>
+    <url>http://geronimo.apache.org/</url>
+    <author>The Apache Geronimo development community</author>
+    <license osi-approved="true">The Apache Software License, Version 2.0</license>
+    <plugin-artifact>
+        <module-id>
+            <groupId>org.apache.geronimo.configs</groupId>
+            <artifactId>transaction</artifactId>
+            <version>2.1.6</version>
+            <type>car</type>
+        </module-id>
+        <geronimo-version>2.1.6</geronimo-version>
+        <jvm-version>1.5</jvm-version>
+        <jvm-version>1.6</jvm-version>
+        <dependency>
+            <groupId>org.apache.geronimo.configs</groupId>
+            <artifactId>j2ee-server</artifactId>
+            <version>2.1.6</version>
+            <type>car</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.framework</groupId>
+            <artifactId>j2ee-security</artifactId>
+            <version>2.1.6</version>
+            <type>car</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.framework</groupId>
+            <artifactId>geronimo-core</artifactId>
+            <version>2.1.6</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.modules</groupId>
+            <artifactId>geronimo-connector</artifactId>
+            <version>2.1.6</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.components</groupId>
+            <artifactId>geronimo-connector</artifactId>
+            <version>2.1.4</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.modules</groupId>
+            <artifactId>geronimo-transaction</artifactId>
+            <version>2.1.6</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.components</groupId>
+            <artifactId>geronimo-transaction</artifactId>
+            <version>2.1.4</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.modules</groupId>
+            <artifactId>geronimo-persistence-jpa10</artifactId>
+            <version>2.1.6</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.framework</groupId>
+            <artifactId>geronimo-transformer</artifactId>
+            <version>2.1.6</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.objectweb.howl</groupId>
+            <artifactId>howl</artifactId>
+            <version>1.0.1-1</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.4.3</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-jcl</artifactId>
+            <version>1.4.3</version>
+            <type>jar</type>
+        </dependency>
+        <source-repository>~/.m2/repository/</source-repository>
+        <source-repository>http://repo1.maven.org/maven2/</source-repository>
+        <source-repository>http://repository.apache.org/snapshots/</source-repository>
+        <source-repository>http://people.apache.org/repo/m2-incubating-repository/</source-repository>
+        <config-xml-content>
+            <ns2:gbean name="XidFactory">
+                <ns2:attribute name="tmId">${TmId}</ns2:attribute>
+            </ns2:gbean>
+            <ns2:gbean name="ResourceBindings">
+                <ns2:attribute name="format">${ResourceBindingsFormat}</ns2:attribute>
+                <ns2:attribute name="nameInNamespace">${ResourceBindingsNameInNamespace}</ns2:attribute>
+                <ns2:attribute name="namePattern">${ResourceBindingsNamePattern}</ns2:attribute>
+                <ns2:attribute name="abstractNameQuery">${ResourceBindingsQuery}</ns2:attribute>
+            </ns2:gbean>
+        </config-xml-content>
+        <artifact-alias key="org.apache.geronimo.configs/transaction//car">org.apache.geronimo.configs/transaction/2.1.6/car</artifact-alias>
+        <artifact-alias key="org.apache.geronimo.configs/transaction/2.1.4/car">org.apache.geronimo.configs/transaction/2.1.6/car</artifact-alias>
+        <artifact-alias key="org.apache.geronimo.configs/transaction/2.1.3/car">org.apache.geronimo.configs/transaction/2.1.6/car</artifact-alias>
+        <artifact-alias key="org.apache.geronimo.configs/transaction/2.1.2/car">org.apache.geronimo.configs/transaction/2.1.6/car</artifact-alias>
+        <artifact-alias key="org.apache.geronimo.configs/transaction/2.1.1/car">org.apache.geronimo.configs/transaction/2.1.6/car</artifact-alias>
+        <artifact-alias key="org.apache.geronimo.configs/transaction/2.1/car">org.apache.geronimo.configs/transaction/2.1.6/car</artifact-alias>
+        <config-substitution key="TmId">71,84,77,73,68</config-substitution>
+        <config-substitution key="ResourceBindingsFormat">{groupId}/{artifactId}/{j2eeType}/{name}</config-substitution>
+        <config-substitution key="ResourceBindingsNameInNamespace">jca:</config-substitution>
+        <config-substitution key="ResourceBindingsNamePattern"></config-substitution>
+        <config-substitution key="ResourceBindingsQuery">?#org.apache.geronimo.naming.ResourceSource</config-substitution>
+    </plugin-artifact>
+</geronimo-plugin>

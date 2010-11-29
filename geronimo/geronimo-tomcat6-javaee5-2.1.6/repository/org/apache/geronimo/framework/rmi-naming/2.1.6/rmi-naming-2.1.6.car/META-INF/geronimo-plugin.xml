@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<geronimo-plugin xmlns="http://geronimo.apache.org/xml/ns/plugins-1.3" xmlns:ns2="http://geronimo.apache.org/xml/ns/attributes-1.2">
+    <name>Geronimo Framework, Configs :: RMI Naming</name>
+    <category>Geronimo Core</category>
+    <description>Fundamental geronimo services including the plugin installer.</description>
+    <url>http://geronimo.apache.org/</url>
+    <author>The Apache Geronimo development community</author>
+    <license osi-approved="true">The Apache Software License, Version 2.0</license>
+    <plugin-artifact>
+        <module-id>
+            <groupId>org.apache.geronimo.framework</groupId>
+            <artifactId>rmi-naming</artifactId>
+            <version>2.1.6</version>
+            <type>car</type>
+        </module-id>
+        <geronimo-version>2.1.6</geronimo-version>
+        <jvm-version>1.5</jvm-version>
+        <jvm-version>1.6</jvm-version>
+        <dependency>
+            <groupId>org.apache.geronimo.framework</groupId>
+            <artifactId>j2ee-system</artifactId>
+            <version>2.1.6</version>
+            <type>car</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.framework</groupId>
+            <artifactId>jee-specs</artifactId>
+            <version>2.1.6</version>
+            <type>car</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.framework</groupId>
+            <artifactId>geronimo-management</artifactId>
+            <version>2.1.6</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.framework</groupId>
+            <artifactId>geronimo-core</artifactId>
+            <version>2.1.6</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.framework</groupId>
+            <artifactId>geronimo-interceptor</artifactId>
+            <version>2.1.6</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.framework</groupId>
+            <artifactId>geronimo-naming</artifactId>
+            <version>2.1.6</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.geronimo.framework</groupId>
+            <artifactId>geronimo-crypto</artifactId>
+            <version>2.1.6</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.xbean</groupId>
+            <artifactId>xbean-naming</artifactId>
+            <version>3.6</version>
+            <type>jar</type>
+        </dependency>
+        <source-repository>~/.m2/repository/</source-repository>
+        <source-repository>http://repo1.maven.org/maven2/</source-repository>
+        <source-repository>http://repository.apache.org/snapshots/</source-repository>
+        <config-xml-content>
+            <ns2:gbean name="RMIRegistry">
+                <ns2:attribute name="port">${NamingPort + PortOffset}</ns2:attribute>
+                <ns2:attribute name="host">${ServerHostname}</ns2:attribute>
+            </ns2:gbean>
+            <ns2:gbean name="NamingProperties">
+                <ns2:attribute name="namingProviderUrl">rmi://${ServerHostname}:${NamingPort + PortOffset}</ns2:attribute>
+            </ns2:gbean>
+            <ns2:gbean name="DefaultThreadPool">
+                <ns2:attribute name="keepAliveTime">30000</ns2:attribute>
+                <ns2:attribute name="minPoolSize">${MinThreadPoolSize}</ns2:attribute>
+                <ns2:attribute name="maxPoolSize">${MaxThreadPoolSize}</ns2:attribute>
+            </ns2:gbean>
+        </config-xml-content>
+        <artifact-alias key="org.apache.geronimo.framework/rmi-naming//car">org.apache.geronimo.framework/rmi-naming/2.1.6/car</artifact-alias>
+        <artifact-alias key="org.apache.geronimo.framework/rmi-naming/2.1.4/car">org.apache.geronimo.framework/rmi-naming/2.1.6/car</artifact-alias>
+        <artifact-alias key="org.apache.geronimo.framework/rmi-naming/2.1.3/car">org.apache.geronimo.framework/rmi-naming/2.1.6/car</artifact-alias>
+        <artifact-alias key="org.apache.geronimo.framework/rmi-naming/2.1.2/car">org.apache.geronimo.framework/rmi-naming/2.1.6/car</artifact-alias>
+        <artifact-alias key="org.apache.geronimo.framework/rmi-naming/2.1.1/car">org.apache.geronimo.framework/rmi-naming/2.1.6/car</artifact-alias>
+        <artifact-alias key="org.apache.geronimo.framework/rmi-naming/2.1/car">org.apache.geronimo.framework/rmi-naming/2.1.6/car</artifact-alias>
+        <config-substitution key="ServerHostname">localhost</config-substitution>
+        <config-substitution key="PortOffset">0</config-substitution>
+        <config-substitution key="NamingPort">1099</config-substitution>
+        <config-substitution key="MinThreadPoolSize">200</config-substitution>
+        <config-substitution key="MaxThreadPoolSize">500</config-substitution>
+    </plugin-artifact>
+</geronimo-plugin>

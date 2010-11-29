@@ -1,0 +1,86 @@
+21:55:13,706 DEBUG (main) [org.apache.geronimo.gshell.GShell] Initializing
+21:55:13,879 DEBUG (main) [org.codehaus.plexus.PlexusContainer] Registering at gshell: org.apache.geronimo.gshell.registry.DefaultCommandRegistry (object realm: ClassRealm[gshell, parent: null]), lookuprealm=gshell
+21:55:13,879 DEBUG (main) [org.codehaus.plexus.PlexusContainer] Registering at gshell: org.apache.geronimo.gshell.plugin.CommandDiscoveryListener (object realm: ClassRealm[gshell, parent: null]), lookuprealm=gshell
+21:55:13,881 DEBUG (main) [org.apache.geronimo.gshell.plugin.CommandDiscoverer] Loading descriptors from: jar:file:/home/user1/geronimo/geronimo-tomcat6-javaee5-2.1.6/repository/org/apache/geronimo/gshell/commands/gshell-builtins/1.0-alpha-1/gshell-builtins-1.0-alpha-1.jar!/META-INF/gshell/commands.xml
+21:55:14,049 DEBUG (main) [org.apache.geronimo.gshell.plugin.CommandDiscoverer] Loaded command set: org.apache.geronimo.gshell.commands:gshell-builtins:jar:1.0-alpha-1
+21:55:14,051 DEBUG (main) [org.apache.geronimo.gshell.registry.DefaultCommandRegistry] Registered: gshell-builtins:clear
+21:55:14,051 DEBUG (main) [org.apache.geronimo.gshell.registry.DefaultCommandRegistry] Registered: gshell-builtins:echo
+21:55:14,051 DEBUG (main) [org.apache.geronimo.gshell.registry.DefaultCommandRegistry] Registered: gshell-builtins:exit
+21:55:14,051 DEBUG (main) [org.apache.geronimo.gshell.registry.DefaultCommandRegistry] Registered: gshell-builtins:help
+21:55:14,051 DEBUG (main) [org.apache.geronimo.gshell.registry.DefaultCommandRegistry] Registered: gshell-builtins:set
+21:55:14,051 DEBUG (main) [org.apache.geronimo.gshell.registry.DefaultCommandRegistry] Registered: gshell-builtins:source
+21:55:14,051 DEBUG (main) [org.apache.geronimo.gshell.registry.DefaultCommandRegistry] Registered: gshell-builtins:unset
+21:55:14,051 DEBUG (main) [org.apache.geronimo.gshell.plugin.CommandDiscoverer] Loading descriptors from: jar:file:/home/user1/geronimo/geronimo-tomcat6-javaee5-2.1.6/lib/geronimo-jaxws-builder-2.1.6.jar!/META-INF/gshell/commands.xml
+21:55:14,059 DEBUG (main) [org.apache.geronimo.gshell.plugin.CommandDiscoverer] Loaded command set: org.apache.geronimo.modules:geronimo-jaxws-builder:jar:2.1.6
+21:55:14,059 DEBUG (main) [org.apache.geronimo.gshell.registry.DefaultCommandRegistry] Registered: geronimo-jaxws-builder:wsgen
+21:55:14,059 DEBUG (main) [org.apache.geronimo.gshell.registry.DefaultCommandRegistry] Registered: geronimo-jaxws-builder:wsimport
+21:55:14,060 DEBUG (main) [org.apache.geronimo.gshell.plugin.CommandDiscoverer] Loading descriptors from: jar:file:/home/user1/geronimo/geronimo-tomcat6-javaee5-2.1.6/repository/org/apache/geronimo/framework/geronimo-commands/2.1.6/geronimo-commands-2.1.6.jar!/META-INF/gshell/commands.xml
+21:55:14,087 DEBUG (main) [org.apache.geronimo.gshell.plugin.CommandDiscoverer] Loaded command set: org.apache.geronimo.framework:geronimo-commands:jar:2.1.6
+21:55:14,087 DEBUG (main) [org.apache.geronimo.gshell.registry.DefaultCommandRegistry] Registered: geronimo-commands:assemble-server
+21:55:14,087 DEBUG (main) [org.apache.geronimo.gshell.registry.DefaultCommandRegistry] Registered: geronimo-commands:connect
+21:55:14,087 DEBUG (main) [org.apache.geronimo.gshell.registry.DefaultCommandRegistry] Registered: geronimo-commands:deploy-module
+21:55:14,087 DEBUG (main) [org.apache.geronimo.gshell.registry.DefaultCommandRegistry] Registered: geronimo-commands:disconnect
+21:55:14,087 DEBUG (main) [org.apache.geronimo.gshell.registry.DefaultCommandRegistry] Registered: geronimo-commands:distribute-module
+21:55:14,087 DEBUG (main) [org.apache.geronimo.gshell.registry.DefaultCommandRegistry] Registered: geronimo-commands:install-library
+21:55:14,087 DEBUG (main) [org.apache.geronimo.gshell.registry.DefaultCommandRegistry] Registered: geronimo-commands:install-plugin
+21:55:14,087 DEBUG (main) [org.apache.geronimo.gshell.registry.DefaultCommandRegistry] Registered: geronimo-commands:list-plugins
+21:55:14,087 DEBUG (main) [org.apache.geronimo.gshell.registry.DefaultCommandRegistry] Registered: geronimo-commands:list-modules
+21:55:14,087 DEBUG (main) [org.apache.geronimo.gshell.registry.DefaultCommandRegistry] Registered: geronimo-commands:list-targets
+21:55:14,088 DEBUG (main) [org.apache.geronimo.gshell.registry.DefaultCommandRegistry] Registered: geronimo-commands:login
+21:55:14,088 DEBUG (main) [org.apache.geronimo.gshell.registry.DefaultCommandRegistry] Registered: geronimo-commands:redeploy-module
+21:55:14,088 DEBUG (main) [org.apache.geronimo.gshell.registry.DefaultCommandRegistry] Registered: geronimo-commands:restart-module
+21:55:14,088 DEBUG (main) [org.apache.geronimo.gshell.registry.DefaultCommandRegistry] Registered: geronimo-commands:start-client
+21:55:14,088 DEBUG (main) [org.apache.geronimo.gshell.registry.DefaultCommandRegistry] Registered: geronimo-commands:start-module
+21:55:14,088 DEBUG (main) [org.apache.geronimo.gshell.registry.DefaultCommandRegistry] Registered: geronimo-commands:start-server
+21:55:14,088 DEBUG (main) [org.apache.geronimo.gshell.registry.DefaultCommandRegistry] Registered: geronimo-commands:stop-module
+21:55:14,088 DEBUG (main) [org.apache.geronimo.gshell.registry.DefaultCommandRegistry] Registered: geronimo-commands:stop-server
+21:55:14,088 DEBUG (main) [org.apache.geronimo.gshell.registry.DefaultCommandRegistry] Registered: geronimo-commands:undeploy-module
+21:55:14,088 DEBUG (main) [org.apache.geronimo.gshell.registry.DefaultCommandRegistry] Registered: geronimo-commands:wait-for-server
+21:55:14,107 DEBUG (main) [org.codehaus.plexus.PlexusContainer] Found 0 components to load on start
+21:55:14,108 DEBUG (main) [org.codehaus.plexus.PlexusContainer] Registering at gshell: org.apache.geronimo.gshell.lookup.IOLookup (object realm: ClassRealm[gshell, parent: null]), lookuprealm=gshell
+21:55:14,112 DEBUG (main) [org.codehaus.plexus.PlexusContainer] Registering at gshell: org.apache.geronimo.gshell.lookup.EnvironmentLookup (object realm: ClassRealm[gshell, parent: null]), lookuprealm=gshell
+21:55:14,123 DEBUG (main) [org.codehaus.plexus.PlexusContainer] Registering at gshell: org.apache.geronimo.gshell.console.TerminalFactory (object realm: ClassRealm[gshell, parent: null]), lookuprealm=gshell
+21:55:14,148 DEBUG (main) [org.apache.geronimo.gshell.console.TerminalFactory] Handing out: jline.UnixTerminal@3b3e0aba
+21:55:14,148 DEBUG (main) [org.codehaus.plexus.PlexusContainer] Registering at gshell: org.apache.geronimo.commands.GeronimoBranding (object realm: ClassRealm[gshell, parent: null]), lookuprealm=gshell
+21:55:14,149 DEBUG (main) [org.apache.geronimo.gshell.DefaultShellInfo] Using home directory: /home/user1/geronimo/geronimo-tomcat6-javaee5-2.1.6
+21:55:14,152 DEBUG (main) [org.codehaus.plexus.PlexusContainer] Registering at gshell: org.apache.geronimo.gshell.DefaultShellInfo (object realm: ClassRealm[gshell, parent: null]), lookuprealm=gshell
+21:55:14,166 DEBUG (main) [org.codehaus.plexus.PlexusContainer] Registering at gshell: org.apache.geronimo.gshell.layout.loader.XMLLayoutLoader (object realm: ClassRealm[gshell, parent: null]), lookuprealm=gshell
+21:55:14,166 DEBUG (main) [org.apache.geronimo.gshell.layout.loader.XMLLayoutLoader] Loading layout from XML: file:/home/user1/geronimo/geronimo-tomcat6-javaee5-2.1.6/etc/layout.xml
+21:55:14,206 DEBUG (main) [org.apache.geronimo.gshell.layout.loader.XMLLayoutLoader] Loaded layout: Layout{ nodes=[GroupNode{ nodes=[CommandNode{ id=geronimo-commands:install-plugin, name=install-plugin, parent=org.apache.geronimo.gshell.layout.model.GroupNode@8c3c315 }, CommandNode{ id=geronimo-commands:connect, name=connect, parent=org.apache.geronimo.gshell.layout.model.GroupNode@8c3c315 }, CommandNode{ id=geronimo-commands:install-library, name=install-library, parent=org.apache.geronimo.gshell.layout.model.GroupNode@8c3c315 }, CommandNode{ id=geronimo-commands:login, name=login, parent=org.apache.geronimo.gshell.layout.model.GroupNode@8c3c315 }, CommandNode{ id=geronimo-commands:undeploy-module, name=undeploy, parent=org.apache.geronimo.gshell.layout.model.GroupNode@8c3c315 }, CommandNode{ id=geronimo-commands:distribute-module, name=distribute, parent=org.apache.geronimo.gshell.layout.model.GroupNode@8c3c315 }, CommandNode{ id=geronimo-commands:restart-module, name=restart, parent=org.apache.geronimo.gshell.layout.model.GroupNode@8c3c315 }, CommandNode{ id=geronimo-commands:disconnect, name=disconnect, parent=org.apache.geronimo.gshell.layout.model.GroupNode@8c3c315 }, CommandNode{ id=geronimo-commands:start-module, name=start, parent=org.apache.geronimo.gshell.layout.model.GroupNode@8c3c315 }, CommandNode{ id=geronimo-commands:stop-module, name=stop, parent=org.apache.geronimo.gshell.layout.model.GroupNode@8c3c315 }, CommandNode{ id=geronimo-commands:list-targets, name=list-targets, parent=org.apache.geronimo.gshell.layout.model.GroupNode@8c3c315 }, CommandNode{ id=geronimo-commands:redeploy-module, name=redeploy, parent=org.apache.geronimo.gshell.layout.model.GroupNode@8c3c315 }, CommandNode{ id=geronimo-commands:list-plugins, name=list-plugins, parent=org.apache.geronimo.gshell.layout.model.GroupNode@8c3c315 }, CommandNode{ id=geronimo-commands:assemble-server, name=assemble, parent=org.apache.geronimo.gshell.layout.model.GroupNode@8c3c315 }, CommandNode{ id=geronimo-commands:list-modules, name=list-modules, parent=org.apache.geronimo.gshell.layout.model.GroupNode@8c3c315 }, CommandNode{ id=geronimo-commands:deploy-module, name=deploy, parent=org.apache.geronimo.gshell.layout.model.GroupNode@8c3c315 }], name=deploy, parent=org.apache.geronimo.gshell.layout.model.Layout@26afa68a }, GroupNode{ nodes=[CommandNode{ id=geronimo-jaxws-builder:wsimport, name=wsimport, parent=org.apache.geronimo.gshell.layout.model.GroupNode@4fa4ded3 }, CommandNode{ id=geronimo-jaxws-builder:wsgen, name=wsgen, parent=org.apache.geronimo.gshell.layout.model.GroupNode@4fa4ded3 }], name=jaxws, parent=org.apache.geronimo.gshell.layout.model.Layout@26afa68a }, AliasNode{ command=exit, name=quit, parent=org.apache.geronimo.gshell.layout.model.Layout@26afa68a }, GroupNode{ nodes=[CommandNode{ id=geronimo-commands:wait-for-server, name=wait-for-server, parent=org.apache.geronimo.gshell.layout.model.GroupNode@337ec9f7 }, CommandNode{ id=geronimo-commands:start-client, name=start-client, parent=org.apache.geronimo.gshell.layout.model.GroupNode@337ec9f7 }, CommandNode{ id=geronimo-commands:start-server, name=start-server, parent=org.apache.geronimo.gshell.layout.model.GroupNode@337ec9f7 }, CommandNode{ id=geronimo-commands:stop-server, name=stop-server, parent=org.apache.geronimo.gshell.layout.model.GroupNode@337ec9f7 }], name=geronimo, parent=org.apache.geronimo.gshell.layout.model.Layout@26afa68a }, CommandNode{ id=gshell-builtins:help, name=help, parent=org.apache.geronimo.gshell.layout.model.Layout@26afa68a }, CommandNode{ id=gshell-builtins:set, name=set, parent=org.apache.geronimo.gshell.layout.model.Layout@26afa68a }, AliasNode{ command=help, name=?, parent=org.apache.geronimo.gshell.layout.model.Layout@26afa68a }, AliasNode{ command=source, name=., parent=org.apache.geronimo.gshell.layout.model.Layout@26afa68a }, CommandNode{ id=gshell-builtins:unset, name=unset, parent=org.apache.geronimo.gshell.layout.model.Layout@26afa68a }, AliasNode{ command=echo, name=print, parent=org.apache.geronimo.gshell.layout.model.Layout@26afa68a }, CommandNode{ id=gshell-builtins:exit, name=exit, parent=org.apache.geronimo.gshell.layout.model.Layout@26afa68a }, CommandNode{ id=gshell-builtins:source, name=source, parent=org.apache.geronimo.gshell.layout.model.Layout@26afa68a }, CommandNode{ id=gshell-builtins:clear, name=clear, parent=org.apache.geronimo.gshell.layout.model.Layout@26afa68a }, CommandNode{ id=gshell-builtins:echo, name=echo, parent=org.apache.geronimo.gshell.layout.model.Layout@26afa68a }], name=<null>, parent=<null> }
+21:55:14,206 DEBUG (main) [org.codehaus.plexus.PlexusContainer] Registering at gshell: org.apache.geronimo.gshell.layout.DefaultLayoutManager (object realm: ClassRealm[gshell, parent: null]), lookuprealm=gshell
+21:55:14,214 DEBUG (main) [org.codehaus.plexus.PlexusContainer] Registering at gshell: org.apache.geronimo.gshell.DefaultCommandLineBuilder (object realm: ClassRealm[gshell, parent: null]), lookuprealm=gshell
+21:55:14,214 DEBUG (main) [org.codehaus.plexus.PlexusContainer] Registering at gshell: org.apache.geronimo.gshell.DefaultCommandExecutor (object realm: ClassRealm[gshell, parent: null]), lookuprealm=gshell
+21:55:14,215 DEBUG (main) [org.apache.geronimo.gshell.console.TerminalFactory] Handing out: jline.UnixTerminal@3b3e0aba
+21:55:14,215 DEBUG (main) [org.apache.geronimo.gshell.console.TerminalInfo] Using terminal: jline.UnixTerminal@3b3e0aba
+21:55:14,215 DEBUG (main) [org.apache.geronimo.gshell.console.TerminalInfo]   Supported: true
+21:55:14,228 DEBUG (main) [org.apache.geronimo.gshell.console.TerminalInfo]   H x W: 60 x 98
+21:55:14,228 DEBUG (main) [org.apache.geronimo.gshell.console.TerminalInfo]   Echo: false
+21:55:14,228 DEBUG (main) [org.apache.geronimo.gshell.console.TerminalInfo]   ANSI: true 
+21:55:14,228 DEBUG (main) [org.codehaus.plexus.PlexusContainer] Registering at gshell: org.apache.geronimo.gshell.console.TerminalInfo (object realm: ClassRealm[gshell, parent: null]), lookuprealm=gshell
+21:55:14,229 DEBUG (main) [org.apache.geronimo.gshell.console.TerminalFactory] Handing out: jline.UnixTerminal@3b3e0aba
+21:55:14,229 DEBUG (main) [org.apache.geronimo.gshell.DefaultShell] Shared script is not present: /etc/gshell.profile
+21:55:14,230 DEBUG (main) [org.apache.geronimo.gshell.DefaultShell] User script is not present: /home/user1/.gshell/gshell.profile
+21:55:14,230 DEBUG (main) [org.codehaus.plexus.PlexusContainer] Registering at gshell: org.apache.geronimo.gshell.DefaultShell (object realm: ClassRealm[gshell, parent: null]), lookuprealm=gshell
+21:55:14,233 DEBUG (main) [org.apache.geronimo.gshell.GShell] Initialized in 0:00:00.525
+21:55:14,234 DEBUG (main) [org.apache.geronimo.gshell.DefaultShell] Starting interactive console; args: geronimo/start-server
+21:55:14,234 DEBUG (main) [org.apache.geronimo.gshell.DefaultShell] User script is not present: /home/user1/.gshell/gshell.rc
+21:55:14,273 DEBUG (main) [org.apache.geronimo.gshell.console.JLineConsole] Created base directory for history file: /home/user1/.gshell
+21:55:14,273 DEBUG (main) [org.apache.geronimo.gshell.console.JLineConsole] Using history file: /home/user1/.gshell/gshell.history
+21:55:14,281 INFO  (main) [org.apache.geronimo.gshell.DefaultCommandExecutor] Executing (Object...): [geronimo/start-server]
+21:55:14,281 INFO  (main) [org.apache.geronimo.gshell.DefaultCommandExecutor] Executing (geronimo/start-server): []
+21:55:14,287 DEBUG (main) [org.apache.geronimo.gshell.plugin.PlexusCommandWrapper] Child container realm: gshell:b3b9b6fa-752b-4031-a41c-f3da9676bf7d
+21:55:14,321 DEBUG (main) [org.codehaus.plexus.PlexusContainer] Found 0 components to load on start
+21:55:14,456 INFO  (main) [org.apache.geronimo.commands.StartServerCommand.geronimo-commands:start-server] Executing w/args: []
+21:55:14,520 DEBUG (main) [org.apache.geronimo.commands.StartServerCommand.geronimo-commands:start-server] Geronimo home: /home/user1/geronimo/geronimo-tomcat6-javaee5-2.1.6
+21:55:14,642 DEBUG (main) [org.apache.geronimo.commands.StartServerCommand.geronimo-commands:start-server] Evaluating script: /home/user1/geronimo/geronimo-tomcat6-javaee5-2.1.6/etc/rc.d/start-server,default.groovy
+21:55:14,853 DEBUG (main) [org.apache.geronimo.commands.ServerProxy] Initialized with URL: service:jmx:rmi://localhost/jndi/rmi://localhost:1099/JMXConnector, environment: {jmx.remote.credentials=[Ljava.lang.String;@7e7f8062}
+21:55:14,885 DEBUG (main) [org.apache.geronimo.commands.StartServerCommand.geronimo-commands:start-server] Waiting for Geronimo Server...
+21:55:14,887 DEBUG (main) [org.apache.geronimo.commands.ServerProxy] Connecting to: service:jmx:rmi://localhost/jndi/rmi://localhost:1099/JMXConnector
+21:55:14,918 DEBUG (main) [org.apache.geronimo.commands.ServerProxy] Connection failure; ignoring: java.io.IOException: Failed to retrieve RMIServer stub: javax.naming.ServiceUnavailableException [Root exception is java.rmi.ConnectException: Connection refused to host: localhost; nested exception is: 
+	java.net.ConnectException: Connection refused]
+21:55:15,919 DEBUG (main) [org.apache.geronimo.commands.ServerProxy] Connecting to: service:jmx:rmi://localhost/jndi/rmi://localhost:1099/JMXConnector
+21:55:15,920 DEBUG (main) [org.apache.geronimo.commands.ServerProxy] Connection failure; ignoring: java.io.IOException: Failed to retrieve RMIServer stub: javax.naming.ServiceUnavailableException [Root exception is java.rmi.ConnectException: Connection refused to host: localhost; nested exception is: 
+	java.net.ConnectException: Connection refused]
+21:55:16,920 DEBUG (main) [org.apache.geronimo.commands.ServerProxy] Connecting to: service:jmx:rmi://localhost/jndi/rmi://localhost:1099/JMXConnector
+21:55:17,037 DEBUG (main) [org.apache.geronimo.commands.ServerProxy] Connected
+21:55:35,302 DEBUG (main) [org.apache.geronimo.commands.StartServerCommand.geronimo-commands:start-server] Waiting for Geronimo Server to shutdown...

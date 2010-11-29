@@ -1,0 +1,97 @@
+<web-app version="2.5" metadata-complete="true" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee  http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <display-name>Geronimo Plan Creator Portlet</display-name>
+  <servlet>
+    <servlet-name>PlanCreator</servlet-name>
+    <servlet-class>org.apache.pluto.core.PortletServlet</servlet-class>
+    <init-param>
+      <param-name>portlet-name</param-name>
+      <param-value>PlanCreator</param-value>
+    </init-param>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PlanCreator</servlet-name>
+    <url-pattern>/PlutoInvoker/PlanCreator</url-pattern>
+  </servlet-mapping>
+  <security-constraint>
+    <web-resource-collection>
+      <web-resource-name>plan-creator</web-resource-name>
+      <url-pattern>/</url-pattern>
+      <http-method>GET</http-method>
+      <http-method>POST</http-method>
+      <http-method>PUT</http-method>
+    </web-resource-collection>
+    <auth-constraint>
+      <role-name>admin</role-name>
+    </auth-constraint>
+  </security-constraint>
+  <login-config>
+    <auth-method>BASIC</auth-method>
+    <realm-name>geronimo-admin</realm-name>
+  </login-config>
+  <security-role>
+    <role-name>admin</role-name>
+  </security-role>
+  <!--Automatically created by Apache Tomcat JspC.
+Place this fragment in the web.xml before all icon, display-name,
+description, distributable, and context-param elements.-->
+  <servlet>
+    <servlet-name>jsp.WEB_002dINF.view.configcreator.dependencies_jsp</servlet-name>
+    <servlet-class>jsp.WEB_002dINF.view.configcreator.dependencies_jsp</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>jsp.WEB_002dINF.view.configcreator.deployStatus_jsp</servlet-name>
+    <servlet-class>jsp.WEB_002dINF.view.configcreator.deployStatus_jsp</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>jsp.WEB_002dINF.view.configcreator.displayPlan_jsp</servlet-name>
+    <servlet-class>jsp.WEB_002dINF.view.configcreator.displayPlan_jsp</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>jsp.WEB_002dINF.view.configcreator.environment_jsp</servlet-name>
+    <servlet-class>jsp.WEB_002dINF.view.configcreator.environment_jsp</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>jsp.WEB_002dINF.view.configcreator.getArchive_jsp</servlet-name>
+    <servlet-class>jsp.WEB_002dINF.view.configcreator.getArchive_jsp</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>jsp.WEB_002dINF.view.configcreator.references_jsp</servlet-name>
+    <servlet-class>jsp.WEB_002dINF.view.configcreator.references_jsp</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>jsp.WEB_002dINF.view.configcreator.security_jsp</servlet-name>
+    <servlet-class>jsp.WEB_002dINF.view.configcreator.security_jsp</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>jsp.WEB_002dINF.view.configcreator.dependencies_jsp</servlet-name>
+    <url-pattern>/WEB-INF/view/configcreator/dependencies.jsp</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>jsp.WEB_002dINF.view.configcreator.deployStatus_jsp</servlet-name>
+    <url-pattern>/WEB-INF/view/configcreator/deployStatus.jsp</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>jsp.WEB_002dINF.view.configcreator.displayPlan_jsp</servlet-name>
+    <url-pattern>/WEB-INF/view/configcreator/displayPlan.jsp</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>jsp.WEB_002dINF.view.configcreator.environment_jsp</servlet-name>
+    <url-pattern>/WEB-INF/view/configcreator/environment.jsp</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>jsp.WEB_002dINF.view.configcreator.getArchive_jsp</servlet-name>
+    <url-pattern>/WEB-INF/view/configcreator/getArchive.jsp</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>jsp.WEB_002dINF.view.configcreator.references_jsp</servlet-name>
+    <url-pattern>/WEB-INF/view/configcreator/references.jsp</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>jsp.WEB_002dINF.view.configcreator.security_jsp</servlet-name>
+    <url-pattern>/WEB-INF/view/configcreator/security.jsp</url-pattern>
+  </servlet-mapping>
+  <!--All session-config, mime-mapping, welcome-file-list, error-page, taglib,
+resource-ref, security-constraint, login-config, security-role,
+env-entry, and ejb-ref elements should follow this fragment.-->
+</web-app>

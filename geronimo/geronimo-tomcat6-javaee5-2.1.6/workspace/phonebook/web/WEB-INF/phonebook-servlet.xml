@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<!--
+- Application context definition for "phonebook" DispatcherServlet.
+-->
+<beans>
+
+    
+	<bean name="phonebookController" class="phonebook.controller.PhonebookController"/>
+       
+	<bean id="urlMapping" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+		<property name="mappings">
+			<props>
+				<prop key="/home.do">phonebookController</prop>
+			</props>
+		</property>
+	</bean>
+       
+</beans>

@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<!--	Build file for Phone PhoneBoook application by Arun Chhatpar -->
+<project name="phonebook" basedir="." default="usage">
+	<property file="build.properties"/>
+	<path id="master-classpath">
+		<fileset dir="${lib.dir}">
+			<include name="*.jar"/>
+		</fileset>
+	</path>
+	<target name="usage">
+		<echo message=""/>
+		<echo message="Build File for PhoneBook application"/>
+		<echo message="*** Make sure you've copied the required JAR files to the lib directory."/>
+		<echo message="*** See lib/readme.txt for more information."/>
+		<echo message="------------------------------------------------------"/>
+		<echo message=""/>
+		<echo message="Available targets are:"/>
+		<echo message=""/>
+		<echo message="clean    --> Clean output dirs"/>
+		<echo message="build    --> Compile main Java sources and copy libraries"/>
+		<echo message="dist  --> Create WAR deployment unit"/>
+		<echo message=""/>
+	</target>
+	<target name="clean" description="Clean output dirs (build, dist)">
+		<delete dir="${build.dir}"/>
+		<delete dir="${dist.dir}"/>
+	</target>
+	<target name="build" description="Compile main source tree java files into class files, generate jar files">
+		<mkdir dir="${build.dir}"/>
+		<javac destdir="${build.dir}" source="1.4" target="1.4" debug="true" deprecation="false" optimize="false" failonerror="true">
+			<src path="${src.dir}"/>
+			<classpath refid="master-classpath"/>
+		</javac>
+	</target>
+	<target name="dist" depends="build" description="Build the web application archive">
+		<mkdir dir="${dist.dir}"/>
+		<war warfile="${dist.dir}/${name}.war" webxml="${war.dir}/WEB-INF/web.xml">
+			<!-- Include the JSPs and other documents -->
+			<fileset dir="web" excludes="WEB-INF/**"/>
+			<!-- Bring in Spring-specific XML configuration files -->
+			<webinf dir="${war.dir}/WEB-INF">
+				<!-- We've already included this -->
+				<exclude name="web.xml"/>
+			</webinf>
+			<!-- Include the compiled classes -->
+			<classes dir="${build.dir}"/>
+			<lib dir="${lib.dir}">
+				<!-- The Geronimo container provides the Servlet API and Spring API jars-->
+				<exclude name="servlet-api.jar"/>
+				<!-- <exclude name="spring.jar"/> -->
+			</lib>
+		</war>
+	</target>
+</project>
